@@ -1,0 +1,87 @@
+\begin{document}
+
+  % title page
+  \thispagestyle{empty}
+ % \ThisCenterWallPaper{1.0}{graphics/title-background.pdf}
+  \input{main/titlepage\BrochureLanguagePostfix.tex}
+  
+  % front matter
+  \frontmatter
+  
+  % definition of header & footer
+  \newcommand{\Brochurelohead}{\leftmark}
+  \newcommand{\Brochurerehead}{\leftmark}
+  \newcommand{\Brochurecfoot}{}
+  \pagestyle{scrheadings}
+  \rohead[{\includegraphicsnosvg[height=8mm]{graphics/Bebras India Logo_male.pdf}}]{\includegraphicsnosvg[height=8mm]{graphics/Bebras India Logo_male.pdf}}
+  \lehead[{\includegraphicsnosvg[height=8mm]{graphics/Bebras India Logo_female.pdf}}]{\includegraphicsnosvg[height=8mm]{graphics/Bebras India Logo_female.pdf}}
+  \lohead[\Brochurelohead]{\Brochurelohead}
+  \rehead[\Brochurerehead]{\Brochurerehead}
+  \ifoot[\BrochureCopyright]{\BrochureCopyright}
+  \cfoot[\Brochurecfoot]{\Brochurecfoot}
+
+  % handling empty pages
+  \makeatletter
+    \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+    \hbox{}
+    \ihead[]{}
+    \cfoot[]{}
+    \newpage
+    \lohead[\Brochurelohead]{\Brochurelohead}
+    \rehead[\Brochurerehead]{\Brochurerehead}
+    \cfoot[\Brochurecfoot]{\Brochurecfoot}
+    \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+  \makeatother
+  
+  % the front matter has no cleardoublepage (aka no empty pages inserted)
+  \begingroup
+    \let\cleardoublepage\clearpage
+
+   \input{main/credits\BrochureLanguagePostfix.tex}
+   \input{main/preface\BrochureLanguagePostfix.tex}
+
+    % protrusion should be disabled for toc
+    \microtypesetup{protrusion=false}
+    % line style
+    \DeclareTOCStyleEntry[beforeskip=0pt,numwidth=2em,linefill=\TOCLineLeaderFill]{chapter}{chapter}
+    % table of contents
+    \tableofcontents
+    \microtypesetup{protrusion=true}
+  \endgroup
+  
+  \mainmatter
+  % the tasks
+  
+  %set the header
+  \newcommand{\BrochureSetHeadersForTasks}{
+    %\renewcommand{\Brochurelohead}{\BrochureFlag{\taskCountry}{} \taskTitle{} \emph{\taskDifficulties}}
+    %\renewcommand{\Brochurerehead}{\emph{\taskDifficulties{}} \taskTitle{} \BrochureFlag{\taskCountry}}
+    \renewcommand{\Brochurelohead}{\taskTitle{} \emph{\taskDifficulties}}
+    \renewcommand{\Brochurerehead}{\emph{\taskDifficulties{}} \taskTitle{}}
+    \renewcommand{\Brochurecfoot}{\taskID}
+  }
+  \newcommand{\BrochureSetHeadersForNonTasks}{
+    \renewcommand{\Brochurelohead}{\leftmark}
+    \renewcommand{\Brochurerehead}{\leftmark}
+    \renewcommand{\Brochurecfoot}{}
+  }
+
+  \BrochureSetHeadersForTasks{}
+  
+  \input{tasks/tasks.tex}
+
+  \BrochureSetHeadersForNonTasks{}
+  
+  
+  \appendix
+  % the appendix has no cleardoublepage (aka no empty pages inserted)
+  \begingroup
+    \let\cleardoublepage\clearpage
+  
+    %\input{main/authors}
+  
+    % back matter
+    %\input{main/partners\BrochureLanguagePostfix.tex}
+    %\input{main/sponsors\BrochureLanguagePostfix.tex}
+  \endgroup
+\end{document}

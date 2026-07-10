@@ -1,0 +1,145 @@
+% input encoding as utf8
+\usepackage[utf8]{inputenc}
+% better font encoding for the different languages
+\usepackage[T1]{fontenc}
+% phonetic characters
+\usepackage{tipa}
+% special math characters
+\usepackage{amssymb}
+% aligned equations
+\usepackage{amsmath}
+% improve full justification
+\usepackage{microtype}
+% avoid widows and orphans
+\usepackage[all]{nowidow}
+
+% avoid error messages like 131 in Adobe Reader for some compressed bitmap objects
+\pdfminorversion=5
+\pdfobjcompresslevel=1
+\pdfsuppresswarningpagegroup=1
+% for links and pdf options (hypersetup is in the title page!)
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+% for including graphics
+\usepackage{graphicx}
+% save standard includegraphics for times where the svg-patched one causes errors
+\let\includegraphicsnosvg\includegraphics
+% for direct conversion and inclusion of svg files
+\usepackage{svg}
+\svgsetup{inkscapeversion=1,inkscapearea=page}
+% for creating a shadow box around a flag
+\usepackage{fancybox}
+% for those tasks where a picture needs to be put next to a text (instead of using tables)
+\usepackage{wrapfig}
+% for including a background image for the title page
+\usepackage{wallpaper}
+% for the table in the back matter
+\usepackage{longtable}
+% for colored cells
+\usepackage{colortbl}
+% for enumerations like A), B), ...
+\usepackage{enumerate}
+% for fine-tuning list spacing, must be after package enumerate
+\usepackage[shortlabels]{enumitem}
+% have nicer lists closer to the previous paragraph, when nested
+\setlist{nosep,before=\vspace{0.3\BrochureParSkip},after=\vspace{0.2\BrochureParSkip},itemsep=0.4ex}
+% similar list settings for top-level lists
+\setlist[1]{nosep,before=\vspace{-0.5\BrochureParSkip},itemsep=0.5ex}
+% for the three-column author list
+\usepackage{multicol}
+% for multi-row cells in tables
+\usepackage{multirow}
+% to improve the vertical spacing of tables (so that the images don't touch the rules)
+\usepackage{cellspace}
+\setlength{\cellspacetoplimit}{2pt}
+\setlength{\cellspacebottomlimit}{2pt}
+% for fine-tuning cells
+\usepackage{makecell}
+% for width-adapting columns
+\usepackage{tabularx}
+\renewcommand\theadfont{\bfseries}
+\renewcommand{\tabularxcolumn}[1]{>{}m{#1}}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{J}{>{\arraybackslash}X}
+% for much, much better tables
+\usepackage{tabularray}
+\UseTblrLibrary{booktabs}
+\SetTblrInner{rowsep=0.5pt}
+% for better vertical alignment in tables
+\usepackage[export]{adjustbox}
+% for nicer tables and lines
+\usepackage{booktabs}
+% for units
+\usepackage{units}
+% for the degree sign
+\usepackage{textcomp}
+% for quotes
+\usepackage[babel=true,maxlevel=3]{csquotes}
+\DeclareQuoteStyle{BrochureQuoteStyle-deu}{«}[» ]{»}{‹}[»› ]{›}
+\DeclareQuoteStyle{BrochureQuoteStyle-fra}{«\thinspace{}}[» ]{\thinspace{}»}{“}[»\thinspace{}› ]{”}
+\DeclareQuoteStyle{BrochureQuoteStyle-eng}{«}[» ]{»}{“}[»› ]{”}
+
+% for hyphenation within \texttt, e.g. in \href or \url
+\usepackage[htt]{hyphenat}
+
+% allows you to read out the current language name
+\usepackage{iflang}
+% makes comparison of variables easier
+\usepackage{ifthen}
+
+% use the page size better
+\usepackage[scale={0.83,0.8},bindingoffset=10mm,centering]{geometry}
+% remove any space before a chapter command
+\renewcommand{\chapterheadstartvskip}{}
+% for setting strech in body only
+\usepackage{setspace}
+\setstretch{1.15}
+% more spacing from document class commands
+\RedeclareSectionCommand[afterskip=0.5em]{chapter}
+\RedeclareSectionCommand[beforeskip=1em,afterskip=0.5ex]{section}
+% for special headers
+\usepackage[headsepline,plainheadsepline,footsepline,plainfootsepline]{scrlayer-scrpage}
+\setkomafont{pagehead}{\normalfont}
+\setkomafont{pagefoot}{\normalfont\footnotesize}
+% allows for larger spaces between words in favor of less hyphenations
+\sloppy
+% allows for larger spaces at the bottom of a page, does prohibit putting more space in between paragraphs
+\raggedbottom
+% no indentation of the first line of a paragraph
+\setlength{\parindent}{0pt}
+% set default paragraph skip
+\newlength{\BrochureParSkip}
+\setlength{\BrochureParSkip}{0.8em}
+% some space between paragraphs
+\setlength{\parskip}{\BrochureParSkip}
+% don't let babel change the list style based on language
+\AtBeginDocument{\def\labelitemi{$\bullet$}}
+% add table of contents to table of contents
+\usepackage{tocbibind}
+% to change margins, etc.
+\usepackage{changepage}
+% no extra space before and after adjustwidth
+\makeatletter
+\renewenvironment{adjustwidth}[2]{%
+    \begin{list}{}{%
+    \partopsep\z@%
+    \topsep\z@%
+    \listparindent\parindent%
+    \parsep\parskip%
+    \@ifmtarg{#1}{\setlength{\leftmargin}{\z@}}%
+                 {\setlength{\leftmargin}{#1}}%
+    \@ifmtarg{#2}{\setlength{\rightmargin}{\z@}}%
+                 {\setlength{\rightmargin}{#2}}%
+    }
+    \item[]}{\end{list}}
+\makeatother
+
+% code blocks
+\usepackage{listings}
+% for printable QR-code links to the interactive versions
+\usepackage{qrcode}
+% for Korean characters
+\usepackage{CJKutf8}
+\usepackage{tfrupee}

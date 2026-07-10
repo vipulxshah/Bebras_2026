@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="37.5mm"
+   height="20mm"
+   viewBox="0 0 36.174602 19.293122"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="bread.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.85"
+     inkscape:cx="120"
+     inkscape:cy="145.13514"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <filter
+       id="objShadow"
+       x="-0.28"
+       y="-0.46666667"
+       width="1.64"
+       height="2.1333333">
+      <feGaussianBlur
+         in="SourceAlpha"
+         stdDeviation="5"
+         id="feGaussianBlur1" />
+      <feOffset
+         dx="4"
+         dy="6"
+         id="feOffset1" />
+      <feComponentTransfer
+         id="feComponentTransfer1">
+        <feFuncA
+           type="linear"
+           slope="0.3"
+           id="feFuncA1" />
+      </feComponentTransfer>
+      <feMerge
+         id="feMerge2">
+        <feMergeNode
+           id="feMergeNode1" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode2" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-25.648812,-28.768599)">
+    <rect
+       width="130"
+       height="60"
+       rx="25"
+       fill="#e1b12c"
+       stroke="#4b2c20"
+       stroke-width="2.5"
+       id="rect11"
+       x="0"
+       y="0"
+       transform="matrix(0.26457907,-0.00150175,0.00150175,0.26457907,26.643651,29.80629)"
+       style="filter:url(#objShadow)" />
+    <path
+       d="M 30,15 45,45 M 65,15 80,45"
+       stroke="#9c7c38"
+       stroke-width="4"
+       stroke-linecap="round"
+       id="path11"
+       transform="matrix(0.26457907,-0.00150175,0.00150175,0.26457907,26.643651,29.80629)"
+       style="filter:url(#objShadow)" />
+  </g>
+</svg>

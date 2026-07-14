@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="141.286mm"
+   height="60.721867mm"
+   viewBox="0 0 141.286 60.721867"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="2026-DE-05-optionD.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.94236332"
+     inkscape:cx="148.56266"
+     inkscape:cy="442.50449"
+     inkscape:window-width="2536"
+     inkscape:window-height="1412"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10459.773,1750.2188)">
+    <path
+       d="m 10460.73,-1689.1711 c 0.03,-6.6487 8.652,-12.0206 19.246,-11.9986 10.48,0.022 18.992,5.3186 19.117,11.8956 l -19.181,0.1429 z"
+       fill="#fd7d13"
+       fill-rule="evenodd"
+       id="path8"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text8"
+       x="10474.665"
+       y="-1690.0573"
+       style="stroke-width:0.264583">B</text>
+    <path
+       d="m 10515.556,-1734.1319 c 0.03,-6.6487 8.651,-12.0206 19.246,-11.9985 10.48,0.022 18.992,5.3186 19.117,11.8956 l -19.181,0.1429 z"
+       fill="#fece02"
+       fill-rule="evenodd"
+       id="path9-7"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text9-8"
+       x="10529.69"
+       y="-1735.0179"
+       style="stroke-width:0.264583">C</text>
+    <path
+       d="m 10480.151,-1712.5597 c 0.03,-6.6487 8.652,-12.0205 19.246,-11.9986 10.481,0.022 18.993,5.3187 19.117,11.8957 l -19.181,0.1429 z"
+       fill="#942bcf"
+       fill-rule="evenodd"
+       id="path10"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text10"
+       x="10494.679"
+       y="-1713.4458"
+       style="stroke-width:0.264583">F</text>
+    <path
+       d="m 10562.814,-1689.5369 c 0.04,-6.6487 8.652,-12.0205 19.246,-11.9986 10.481,0.022 18.993,5.3187 19.118,11.8957 l -19.181,0.1429 z"
+       fill="#04bc2b"
+       fill-rule="evenodd"
+       id="path11"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text11"
+       x="10576.284"
+       y="-1690.423"
+       style="stroke-width:0.264583">D</text>
+    <path
+       d="m 10539.564,-1712.8404 c 0.03,-6.6487 8.652,-12.0205 19.246,-11.9986 10.481,0.022 18.993,5.3187 19.117,11.8957 l -19.181,0.1429 z"
+       fill="#2892fc"
+       fill-rule="evenodd"
+       id="path12"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text12"
+       x="10553.988"
+       y="-1713.5166"
+       style="stroke-width:0.264583">E</text>
+    <path
+       d="m 10510.783,-1689.2095 c 0.03,-6.6487 8.652,-12.0206 19.246,-11.9985 10.481,0.022 18.993,5.3186 19.117,11.8955 l -19.181,0.143 z"
+       fill="#ff0000"
+       fill-rule="evenodd"
+       id="path7"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text7"
+       x="10525.141"
+       y="-1690.0955"
+       style="stroke-width:0.264583">A</text>
+  </g>
+</svg>

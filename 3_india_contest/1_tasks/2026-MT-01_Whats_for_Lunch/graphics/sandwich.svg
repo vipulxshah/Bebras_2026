@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="breadTopGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4883A"/>
+      <stop offset="100%" stop-color="#B86820"/>
+    </linearGradient>
+    <linearGradient id="breadBotGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C87828"/>
+      <stop offset="100%" stop-color="#A05818"/>
+    </linearGradient>
+    <linearGradient id="breadCrumbTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0CC88"/>
+      <stop offset="100%" stop-color="#D4A850"/>
+    </linearGradient>
+    <linearGradient id="breadCrumbBot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECC070"/>
+      <stop offset="100%" stop-color="#C89040"/>
+    </linearGradient>
+    <linearGradient id="cheeseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5D060"/>
+      <stop offset="100%" stop-color="#DDA830"/>
+    </linearGradient>
+    <linearGradient id="hamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D4707A"/>
+      <stop offset="100%" stop-color="#B04858"/>
+    </linearGradient>
+    <clipPath id="sandwichClip">
+      <rect x="60" y="130" width="280" height="220"/>
+    </clipPath>
+  </defs>
+
+  <!-- ════════════════════════
+       SANDWICH — side view
+       Layers from bottom to top:
+       1. Bottom bread slice
+       2. Lettuce
+       3. Tomato
+       4. Ham
+       5. Cheese
+       6. Top bread slice
+  ════════════════════════ -->
+
+  <!-- ── Bottom bread crust (dark outer) ── -->
+  <path d="M 72,295 L 328,295 Q 332,295 332,290 L 332,278 Q 332,272 328,272 L 72,272 Q 68,272 68,278 L 68,290 Q 68,295 72,295 Z"
+        fill="url(#breadBotGrad)"/>
+  <!-- Bottom bread crumb (inner lighter part) -->
+  <path d="M 72,272 L 328,272 L 328,248 L 72,248 Z" fill="url(#breadCrumbBot)"/>
+  <!-- Crumb texture bubbles -->
+  <ellipse cx="110" cy="260" rx="7" ry="4" fill="#D8A84A" opacity="0.4"/>
+  <ellipse cx="150" cy="255" rx="6" ry="3.5" fill="#C89038" opacity="0.35"/>
+  <ellipse cx="195" cy="262" rx="8" ry="4.5" fill="#D8A848" opacity="0.38"/>
+  <ellipse cx="245" cy="257" rx="7" ry="4" fill="#C89038" opacity="0.35"/>
+  <ellipse cx="285" cy="261" rx="6" ry="3.5" fill="#D8A848" opacity="0.38"/>
+  <!-- Bottom bread top edge highlight -->
+  <line x1="72" y1="248" x2="328" y2="248" stroke="#F0CC80" stroke-width="2" opacity="0.6"/>
+
+  <!-- ── Lettuce layer ── -->
+  <!-- Lettuce is frilly — drawn as a wavy band poking out slightly -->
+  <path d="M 62,248 Q 80,238 100,244 Q 118,250 135,240 Q 152,230 168,238 Q 185,246 202,236 Q 218,226 234,234 Q 250,242 266,232 Q 282,222 298,230 Q 315,238 330,230 L 338,248 L 62,248 Z"
+        fill="#5DB347"/>
+  <path d="M 64,248 Q 82,240 102,246 Q 120,252 136,242 Q 154,232 170,240 Q 187,248 204,238 Q 220,228 236,236 Q 252,244 268,234 Q 284,224 300,232 Q 316,240 332,232"
+        stroke="#3D8F2A" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- ── Tomato slices ── -->
+  <!-- Tomato 1 -->
+  <ellipse cx="145" cy="235" rx="32" ry="10" fill="#D03020" transform="rotate(-3,145,235)"/>
+  <ellipse cx="145" cy="235" rx="26" ry="7" fill="#E84030" transform="rotate(-3,145,235)" opacity="0.8"/>
+  <!-- Seeds / gel texture -->
+  <ellipse cx="138" cy="234" rx="5" ry="3" fill="#F06050" opacity="0.5" transform="rotate(-3,138,234)"/>
+  <ellipse cx="152" cy="233" rx="5" ry="3" fill="#F06050" opacity="0.5" transform="rotate(-3,152,233)"/>
+  <!-- Tomato 2 -->
+  <ellipse cx="258" cy="233" rx="30" ry="10" fill="#C82C1C" transform="rotate(4,258,233)"/>
+  <ellipse cx="258" cy="233" rx="24" ry="7" fill="#E03828" transform="rotate(4,258,233)" opacity="0.8"/>
+  <ellipse cx="252" cy="232" rx="5" ry="3" fill="#F06050" opacity="0.5" transform="rotate(4,252,232)"/>
+  <ellipse cx="265" cy="232" rx="5" ry="3" fill="#F06050" opacity="0.5" transform="rotate(4,265,232)"/>
+
+  <!-- ── Ham layer ── -->
+  <path d="M 68,230 L 332,230 L 332,214 L 68,214 Z" fill="url(#hamGrad)"/>
+  <!-- Ham marbling -->
+  <path d="M 100,220 Q 130,216 160,220 Q 190,224 220,218 Q 250,214 280,220"
+        stroke="#E08888" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 90,225 Q 120,221 155,225 Q 185,229 210,223"
+        stroke="#C06070" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <!-- Ham edge highlight -->
+  <line x1="68" y1="214" x2="332" y2="214" stroke="#E08090" stroke-width="1.5" opacity="0.5"/>
+  <line x1="68" y1="230" x2="332" y2="230" stroke="#8A3040" stroke-width="1" opacity="0.4"/>
+
+  <!-- ── Cheese layer ── -->
+  <!-- Cheese overhangs slightly — classic melted look -->
+  <path d="M 62,214 Q 65,208 68,205 L 330,205 Q 334,208 336,214 L 336,222 Q 330,218 68,218 Q 64,218 62,222 Z"
+        fill="url(#cheeseGrad)"/>
+  <path d="M 62,214 L 336,214" stroke="#F0D868" stroke-width="1.5" opacity="0.5"/>
+  <!-- Cheese drips at edges -->
+  <path d="M 68,210 Q 65,215 64,222 Q 63,228 66,230" stroke="#E8C030" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 330,210 Q 333,215 334,222 Q 335,228 333,230" stroke="#E8C030" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Cheese highlight -->
+  <line x1="68" y1="205" x2="330" y2="205" stroke="#FAEAA0" stroke-width="2" opacity="0.55"/>
+
+  <!-- ── Top bread slice ── -->
+  <!-- Bread crumb underside -->
+  <path d="M 68,205 L 330,205 L 330,180 L 68,180 Z" fill="url(#breadCrumbTop)"/>
+  <!-- Crumb texture -->
+  <ellipse cx="115" cy="193" rx="8" ry="4.5" fill="#D8A040" opacity="0.38"/>
+  <ellipse cx="165" cy="188" rx="7" ry="4" fill="#C89030" opacity="0.35"/>
+  <ellipse cx="210" cy="195" rx="9" ry="5" fill="#D8A848" opacity="0.4"/>
+  <ellipse cx="260" cy="190" rx="7" ry="4" fill="#C89030" opacity="0.35"/>
+  <ellipse cx="300" cy="194" rx="6" ry="3.5" fill="#D8A040" opacity="0.38"/>
+  <!-- Crust top -->
+  <path d="M 72,180 Q 80,148 110,138 Q 150,128 200,130 Q 250,128 290,138 Q 318,148 328,180 Z"
+        fill="url(#breadTopGrad)"/>
+  <!-- Crust top sheen -->
+  <path d="M 100,145 Q 150,132 200,131 Q 250,132 295,143"
+        stroke="#E0A060" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <!-- Sesame seeds on top crust -->
+  <ellipse cx="155" cy="142" rx="6" ry="2.5" fill="#E8D098" transform="rotate(-15,155,142)"/>
+  <ellipse cx="180" cy="136" rx="6" ry="2.5" fill="#F0D8A8" transform="rotate(8,180,136)"/>
+  <ellipse cx="205" cy="135" rx="6" ry="2.5" fill="#E8D098" transform="rotate(-5,205,135)"/>
+  <ellipse cx="230" cy="137" rx="6" ry="2.5" fill="#F0D8A8" transform="rotate(12,230,137)"/>
+  <ellipse cx="252" cy="144" rx="5.5" ry="2.2" fill="#E8D098" transform="rotate(-18,252,144)"/>
+  <ellipse cx="175" cy="150" rx="5" ry="2" fill="#F0D8A8" transform="rotate(20,175,150)"/>
+  <ellipse cx="225" cy="148" rx="5" ry="2" fill="#E8D098" transform="rotate(-10,225,148)"/>
+  <!-- Crust bottom edge shadow -->
+  <line x1="72" y1="180" x2="328" y2="180" stroke="#906020" stroke-width="2" opacity="0.4"/>
+
+  <!-- ── Toothpick / skewer holding it together ── -->
+  <line x1="200" y1="120" x2="200" y2="295" stroke="#B8926A" stroke-width="2.5" stroke-dasharray="none"/>
+  <!-- Toothpick tip top -->
+  <polygon points="200,118 196,126 204,126" fill="#8B6040"/>
+  <!-- Toothpick tip bottom -->
+  <polygon points="200,297 196,290 204,290" fill="#8B6040"/>
+
+  <!-- ── Plate underneath ── -->
+  <ellipse cx="200" cy="310" rx="175" ry="18" fill="#EDE5D8"/>
+  <ellipse cx="200" cy="310" rx="175" ry="18" fill="none" stroke="#D0C8BC" stroke-width="2"/>
+  <path d="M 30,310 A 175,18 0 0,1 370,310" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.4"/>
+
+</svg>

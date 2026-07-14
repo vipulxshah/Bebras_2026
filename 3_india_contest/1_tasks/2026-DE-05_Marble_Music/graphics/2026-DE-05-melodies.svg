@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="140.76984mm"
+   height="70.511528mm"
+   viewBox="0 0 140.76984 70.511528"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="melodies.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.9189344"
+     inkscape:cx="266.02174"
+     inkscape:cy="133.09652"
+     inkscape:window-width="2560"
+     inkscape:window-height="1412"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-22.225,-110.33125)">
+    <path
+       d="m 73.98909,122.32991 c 0.03519,-6.64872 8.651875,-12.02055 19.246056,-11.99859 10.480414,0.022 18.992584,5.31865 19.117204,11.89567 l -19.180969,0.14287 z"
+       fill="#fd7d13"
+       fill-rule="evenodd"
+       id="path1"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text1"
+       x="87.923843"
+       y="121.44382"
+       style="stroke-width:0.264583">B</text>
+    <path
+       d="m 124.63157,122.32991 c 0.0352,-6.64872 8.65187,-12.02055 19.24605,-11.99859 10.48041,0.022 18.99259,5.31865 19.11721,11.89567 l -19.18097,0.14287 z"
+       fill="#04bc2b"
+       fill-rule="evenodd"
+       id="path2"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text2"
+       x="138.10123"
+       y="121.44382"
+       style="stroke-width:0.264583">D</text>
+    <path
+       d="m 22.225026,122.32991 c 0.03516,-6.64872 8.651822,-12.02055 19.245923,-11.99859 10.48041,0.022 18.992585,5.31865 19.117204,11.89567 l -19.180968,0.14287 z"
+       fill="#ff0000"
+       fill-rule="evenodd"
+       id="path3"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text3"
+       x="36.583458"
+       y="121.44382"
+       style="stroke-width:0.264583">A</text>
+    <path
+       d="m 61.25575,116.68132 h 9.583737 v 1.05833 H 61.25575 Z m 9.05457,-1.05833 3.175,1.5875 -3.175,1.5875 z"
+       id="path4"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 112.32033,116.68132 h 9.58374 v 1.05833 h -9.58374 z m 9.05457,-1.05833 3.175,1.5875 -3.175,1.5875 z"
+       id="path5"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 73.98909,142.04137 c 0.03493,-6.72174 8.651345,-12.15285 19.245262,-12.13089 10.481468,0.022 18.994968,5.37793 19.117998,12.02796 l -19.180969,0.14288 z"
+       fill="#fd7d13"
+       fill-rule="evenodd"
+       id="path6"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text6"
+       x="87.923843"
+       y="141.28757"
+       style="stroke-width:0.264583">B</text>
+    <path
+       d="m 124.63157,142.04137 c 0.0349,-6.72174 8.65134,-12.15285 19.24526,-12.13089 10.48147,0.022 18.99497,5.37793 19.118,12.02796 l -19.18097,0.14288 z"
+       fill="#2892fc"
+       fill-rule="evenodd"
+       id="path7"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text7"
+       x="139.05553"
+       y="141.28757"
+       style="stroke-width:0.264583">E</text>
+    <path
+       d="m 22.225,142.04137 c 0.03479,-6.72174 8.651134,-12.15285 19.245182,-12.13089 10.481468,0.022 18.994966,5.37793 19.117997,12.02796 l -19.180968,0.14288 z"
+       fill="#ff0000"
+       fill-rule="evenodd"
+       id="path8"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text8"
+       x="36.583458"
+       y="141.28757"
+       style="stroke-width:0.264583">A</text>
+    <path
+       d="m 61.25575,136.26048 h 9.583737 v 1.05834 H 61.25575 Z m 9.05457,-1.05833 3.175,1.5875 -3.175,1.5875 z"
+       id="path9"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 112.32033,136.26048 h 9.58374 v 1.05834 h -9.58374 z m 9.05457,-1.05833 3.175,1.5875 -3.175,1.5875 z"
+       id="path10"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 73.98909,161.75282 c 0.03519,-6.64871 8.651875,-12.02055 19.246056,-11.99859 10.480414,0.022 18.992584,5.31866 19.117204,11.89567 l -19.180969,0.14288 z"
+       fill="#fece02"
+       fill-rule="evenodd"
+       id="path11"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text11"
+       x="88.123657"
+       y="160.86673"
+       style="stroke-width:0.264583">C</text>
+    <path
+       d="m 124.63157,161.75282 c 0.0352,-6.64871 8.65187,-12.02055 19.24605,-11.99859 10.48041,0.022 18.99259,5.31866 19.11721,11.89567 l -19.18097,0.14288 z"
+       fill="#2892fc"
+       fill-rule="evenodd"
+       id="path12"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text12"
+       x="139.05553"
+       y="160.86673"
+       style="stroke-width:0.264583">E</text>
+    <path
+       d="m 22.225026,161.75282 c 0.03516,-6.64871 8.651822,-12.02055 19.245923,-11.99859 10.48041,0.022 18.992585,5.31866 19.117204,11.89567 l -19.180968,0.14288 z"
+       fill="#ff0000"
+       fill-rule="evenodd"
+       id="path13"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text13"
+       x="36.583458"
+       y="160.86673"
+       style="stroke-width:0.264583">A</text>
+    <path
+       d="m 61.25575,156.10423 h 9.583737 v 1.05834 H 61.25575 Z m 9.05457,-1.05833 3.175,1.5875 -3.175,1.5875 z"
+       id="path14"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 112.32033,156.10423 h 9.58374 v 1.05834 h -9.58374 z m 9.05457,-1.05833 3.175,1.5875 -3.175,1.5875 z"
+       id="path15"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 73.98909,180.80282 c 0.03519,-6.64871 8.651875,-12.02055 19.246056,-11.99859 10.480414,0.022 18.992584,5.31866 19.117204,11.89567 l -19.180969,0.14288 z"
+       fill="#fece02"
+       fill-rule="evenodd"
+       id="path16"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text16"
+       x="88.123657"
+       y="179.91673"
+       style="stroke-width:0.264583">C</text>
+    <path
+       d="m 124.63157,180.80282 c 0.0352,-6.64871 8.65187,-12.02055 19.24605,-11.99859 10.48041,0.022 18.99259,5.31866 19.11721,11.89567 l -19.18097,0.14288 z"
+       fill="#942bcf"
+       fill-rule="evenodd"
+       id="path17"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text17"
+       x="139.15887"
+       y="179.91673"
+       style="stroke-width:0.264583">F</text>
+    <path
+       d="m 22.225026,180.80282 c 0.03516,-6.64871 8.651822,-12.02055 19.245923,-11.99859 10.48041,0.022 18.992585,5.31866 19.117204,11.89567 l -19.180968,0.14288 z"
+       fill="#ff0000"
+       fill-rule="evenodd"
+       id="path18"
+       style="stroke-width:0.264583" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="14.1111px"
+       id="text18"
+       x="36.583458"
+       y="179.91673"
+       style="stroke-width:0.264583">A</text>
+    <path
+       d="m 61.25575,174.88965 h 9.583737 v 1.05833 H 61.25575 Z m 9.05457,-1.05833 3.175,1.5875 -3.175,1.5875 z"
+       id="path19"
+       style="stroke-width:0.264583" />
+    <path
+       d="m 112.32033,174.88965 h 9.58374 v 1.05833 h -9.58374 z m 9.05457,-1.05833 3.175,1.5875 -3.175,1.5875 z"
+       id="path20"
+       style="stroke-width:0.264583" />
+  </g>
+</svg>

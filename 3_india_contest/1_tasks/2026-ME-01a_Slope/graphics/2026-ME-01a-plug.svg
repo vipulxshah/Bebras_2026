@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="125.97514"
+   height="193.23801"
+   viewBox="0 0 125.97514 193.23801"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="plug.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.6866667"
+     inkscape:cx="67.369726"
+     inkscape:cy="140.32258"
+     inkscape:window-width="1854"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <!-- Definitions for gradients and styling -->
+  <defs
+     id="defs5">
+    <!-- Gradient for the plug body (cork/wood look) -->
+    <linearGradient
+       id="plugGradient"
+       x1="66.343643"
+       y1="166.79781"
+       x2="124.90588"
+       y2="166.79781"
+       gradientTransform="scale(1.0457542,0.95624763)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#a87b50"
+         id="stop1" />
+      <stop
+         offset="50%"
+         stop-color="#d9a77a"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#a87b50"
+         id="stop3" />
+    </linearGradient>
+    <!-- Dark gradient for the hole to give it depth -->
+    <radialGradient
+       id="holeGradient"
+       cx="0.5"
+       cy="0.5"
+       r="0.5"
+       fx="0.5"
+       fy="0.5">
+      <stop
+         offset="70%"
+         stop-color="#1a1a1a"
+         id="stop4" />
+      <stop
+         offset="100%"
+         stop-color="#333333"
+         id="stop5" />
+    </radialGradient>
+    <!-- Rope texture filter for a more realistic look -->
+    <filter
+       id="ropeTexture"
+       x="-0.25377203"
+       y="-0.017857143"
+       width="1.5075441"
+       height="1.0357143">
+      <feTurbulence
+         type="fractalNoise"
+         baseFrequency="0.1 0.5"
+         numOctaves="3"
+         result="noise"
+         id="feTurbulence5" />
+      <feDisplacementMap
+         in="SourceGraphic"
+         in2="noise"
+         scale="3"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         id="feDisplacementMap5" />
+    </filter>
+  </defs>
+  <!-- The Hole in a surface -->
+  <!-- The Plug -->
+  <g
+     id="g1"
+     transform="rotate(150.13432,88.160504,111.12535)">
+    <g
+       transform="translate(0,20)"
+       id="g9">
+      <!-- Plug Body (Tapered cylinder part) -->
+      <path
+         d="m 70,160 12,55 c 0,0 36,0 36,0 l 12,-55 z"
+         fill="url(#plugGradient)"
+         stroke="#8a603d"
+         stroke-width="1"
+         id="path5"
+         style="fill:url(#plugGradient)" />
+      <!-- Plug Flange (Top rim) -->
+      <ellipse
+         cx="100"
+         cy="160"
+         rx="35"
+         ry="12"
+         fill="#d9a77a"
+         stroke="#a87b50"
+         stroke-width="2"
+         id="ellipse6" />
+      <!-- Attachment Loop/Eyelet on top of the plug -->
+      <path
+         d="m 92,155 a 8,8 0 1 1 16,0"
+         fill="none"
+         stroke="#7a593a"
+         stroke-width="4"
+         stroke-linecap="round"
+         id="path6" />
+      <!-- The Rope (intertwined strands) -->
+      <g
+         filter="url(#ropeTexture)"
+         id="g8">
+        <!-- Strand 1 -->
+        <path
+           d="M 100,150 C 90,120 115,100 100,80 85,60 110,40 100,10"
+           fill="none"
+           stroke="#c2976b"
+           stroke-width="5"
+           stroke-linecap="round"
+           id="path7" />
+        <!-- Strand 2 (slightly offset for twist effect) -->
+        <path
+           d="M 100,150 C 110,120 85,100 100,80 115,60 90,40 100,10"
+           fill="none"
+           stroke="#a37a50"
+           stroke-width="5"
+           stroke-linecap="round"
+           id="path8" />
+      </g>
+      <!-- A simple knot at the base of the rope -->
+      <circle
+         cx="100"
+         cy="150"
+         r="6"
+         fill="#a37a50"
+         id="circle8" />
+    </g>
+  </g>
+</svg>

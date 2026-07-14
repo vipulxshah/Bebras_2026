@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 661.78 489.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #f6b491;
+      }
+
+      .cls-3 {
+        fill: #f29119;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-3" d="M158.58,39.75h326.68c66.6,0,120.66,54.07,120.66,120.66v308.84H37.92V160.42c0-66.6,54.07-120.66,120.66-120.66Z"/>
+    <polygon class="cls-1" points="321.74 439.46 578.82 182.43 64.65 182.43 321.74 439.46"/>
+  </g>
+  <rect class="cls-2" x="316.14" y="188.03" width="11.2" height="240.18"/>
+</svg>

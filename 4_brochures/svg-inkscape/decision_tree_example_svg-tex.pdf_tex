@@ -1,0 +1,72 @@
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'decision_tree_example_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{375bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.57)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{decision_tree_example_svg-tex.pdf}}%
+    \put(0.44,0.43){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}🦾\end{tabular}}}}%
+    \put(0.51,0.428){\color[rgb]{0.2,0.2,0.2}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{>}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{decision_tree_example_svg-tex.pdf}}%
+    \put(0.566,0.456){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}▲\end{tabular}}}}%
+    \put(0.566,0.436){\color[rgb]{0.13333333,0.13333333,0.13333333}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{1}\end{tabular}}}}%
+    \put(0.566,0.414){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}▼\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{decision_tree_example_svg-tex.pdf}}%
+    \put(0.308,0.352){\color[rgb]{0.8627451,0.20784314,0.27058824}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{NO (≤)}\end{tabular}}}}%
+    \put(0.692,0.352){\color[rgb]{0.15686275,0.65490196,0.27058824}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{YES (>)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{decision_tree_example_svg-tex.pdf}}%
+    \put(0.25,0.28){\color[rgb]{0.13333333,0.13333333,0.13333333}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{0 or 1 arm}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{decision_tree_example_svg-tex.pdf}}%
+    \put(0.75,0.28){\color[rgb]{0.13333333,0.13333333,0.13333333}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{2 or more arms}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{decision_tree_example_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

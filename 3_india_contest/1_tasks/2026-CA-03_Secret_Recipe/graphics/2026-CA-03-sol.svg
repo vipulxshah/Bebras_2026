@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.33 58.46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+        font-size: 16px;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(26.99 13.3)"><tspan x="0" y="0">2</tspan></text>
+  <text class="cls-3" transform="translate(51.99 53.56)"><tspan x="0" y="0">4</tspan></text>
+  <text class="cls-3" transform="translate(0 53.56)"><tspan x="0" y="0">5</tspan></text>
+  <text class="cls-3" transform="translate(117.62 30.64)"><tspan x="0" y="0">3</tspan></text>
+  <text class="cls-3" transform="translate(170.37 30.64)"><tspan x="0" y="0">6</tspan></text>
+  <text class="cls-3" transform="translate(221.34 30.64)"><tspan x="0" y="0">1</tspan></text>
+  <g>
+    <line class="cls-1" x1="38.66" y1="15.43" x2="51.67" y2="33.4"/>
+    <path class="cls-2" d="M55.21,38.29c-2.52-1.68-6.04-3.48-8.87-4.13l4.86-1.4,2.84-4.18c-.26,2.89.35,6.79,1.16,9.71Z"/>
+  </g>
+  <g>
+    <line class="cls-1" x1="43.88" y1="47.82" x2="21.69" y2="47.82"/>
+    <path class="cls-2" d="M15.66,47.82c2.84-1.05,6.36-2.85,8.55-4.76l-1.72,4.76,1.72,4.75c-2.18-1.9-5.71-3.7-8.55-4.75Z"/>
+  </g>
+  <g>
+    <line class="cls-1" x1="18.79" y1="20.32" x2="5.78" y2="38.29"/>
+    <path class="cls-2" d="M22.32,15.43c-2.52,1.68-6.04,3.48-8.87,4.13l4.86,1.4,2.84,4.18c-.26-2.89.35-6.79,1.16-9.71Z"/>
+  </g>
+  <g>
+    <line class="cls-1" x1="135.22" y1="26.12" x2="157.4" y2="26.12"/>
+    <path class="cls-2" d="M163.44,26.12c-2.84,1.05-6.36,2.85-8.55,4.76l1.72-4.76-1.72-4.75c2.18,1.9,5.71,3.7,8.55,4.75Z"/>
+  </g>
+  <g>
+    <line class="cls-1" x1="186.19" y1="26.12" x2="208.37" y2="26.12"/>
+    <path class="cls-2" d="M214.41,26.12c-2.84,1.05-6.36,2.85-8.55,4.76l1.72-4.76-1.72-4.75c2.18,1.9,5.71,3.7,8.55,4.75Z"/>
+  </g>
+</svg>

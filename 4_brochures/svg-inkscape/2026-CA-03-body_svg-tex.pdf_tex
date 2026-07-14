@@ -1,0 +1,81 @@
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '2026-CA-03-body_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{2377.69555664bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.17451602)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.05180016,0.0748445){\rotatebox{-10.55999983}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Recipe\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.10100747,0.02148613){\rotatebox{16.34999954}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.27035694,0.02148613){\rotatebox{16.34999954}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.43970642,0.02148613){\rotatebox{16.34999954}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.6090559,0.02148613){\rotatebox{16.34999954}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.77840537,0.02148613){\rotatebox{16.34999954}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.94775485,0.02148613){\rotatebox{16.34999954}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.23283786,0.07046954){\rotatebox{25.91}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{4}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.40344906,0.0711004){\rotatebox{25.91}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{6}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.57279853,0.07173126){\rotatebox{25.91}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{5}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.74214803,0.07236211){\rotatebox{25.91}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{2}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{2026-CA-03-body_svg-tex.pdf}}%
+    \put(0.91086665,0.07236211){\rotatebox{25.91}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1}\end{tabular}}}}}%
+  \end{picture}%
+\endgroup%

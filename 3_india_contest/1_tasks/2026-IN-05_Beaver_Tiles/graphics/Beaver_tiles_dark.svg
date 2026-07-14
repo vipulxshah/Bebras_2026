@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="165.08333"
+   zoomAndPan="magnify"
+   viewBox="0 0 123.8125 114.21875"
+   height="152.29167"
+   preserveAspectRatio="xMidYMid"
+   version="1.0"
+   id="svg28"
+   sodipodi:docname="Beaver_tiles_dark.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:export-filename="Beaver tiles_dark.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview28"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.83972969"
+     inkscape:cx="207.80497"
+     inkscape:cy="82.764729"
+     inkscape:window-width="2560"
+     inkscape:window-height="1560"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg28"
+     showgrid="false" />
+  <defs
+     id="defs12">
+    <clipPath
+       id="7d2078be4c">
+      <path
+         d="m 640.13281,546.94531 h 30.05078 v 30.05078 h -30.05078 z m 0,0"
+         clip-rule="nonzero"
+         id="path1" />
+    </clipPath>
+    <clipPath
+       id="e3393bd8f9">
+      <path
+         d="m 655.15625,546.94531 c -8.29688,0 -15.02344,6.72656 -15.02344,15.02344 0,8.30078 6.72656,15.02734 15.02344,15.02734 8.30078,0 15.02734,-6.72656 15.02734,-15.02734 0,-8.29688 -6.72656,-15.02344 -15.02734,-15.02344 z m 0,0"
+         clip-rule="nonzero"
+         id="path2" />
+    </clipPath>
+    <clipPath
+       id="7b42f17109">
+      <path
+         d="M 0.132812,0.945312 H 30.183594 V 30.996094 H 0.132812 Z m 0,0"
+         clip-rule="nonzero"
+         id="path3" />
+    </clipPath>
+    <clipPath
+       id="2f43b3182c">
+      <path
+         d="m 15.15625,0.945312 c -8.296875,0 -15.023438,6.726563 -15.023438,15.023438 0,8.300781 6.726563,15.027344 15.023438,15.027344 8.300781,0 15.027344,-6.726563 15.027344,-15.027344 0,-8.296875 -6.726563,-15.023438 -15.027344,-15.023438 z m 0,0"
+         clip-rule="nonzero"
+         id="path4" />
+    </clipPath>
+    <clipPath
+       id="34e6be1ccf">
+      <rect
+         x="0"
+         width="31"
+         y="0"
+         height="31"
+         id="rect4" />
+    </clipPath>
+    <clipPath
+       id="1dab6f0e27">
+      <path
+         d="m 640.13281,546.94531 h 30 v 30 h -30 z m 0,0"
+         clip-rule="nonzero"
+         id="path5" />
+    </clipPath>
+    <clipPath
+       id="068f7b236e">
+      <path
+         d="m 655.15625,546.94531 c -8.29688,0 -15.02344,6.72656 -15.02344,15.02344 0,8.29687 6.72656,15.02344 15.02344,15.02344 8.29687,0 15.02344,-6.72657 15.02344,-15.02344 0,-8.29688 -6.72657,-15.02344 -15.02344,-15.02344 z m 0,0"
+         clip-rule="nonzero"
+         id="path6" />
+    </clipPath>
+    <clipPath
+       id="cc64ec0668">
+      <path
+         d="m 674.76953,546.94531 h 30.04688 v 30.05078 h -30.04688 z m 0,0"
+         clip-rule="nonzero"
+         id="path7" />
+    </clipPath>
+    <clipPath
+       id="cb698315fb">
+      <path
+         d="m 689.79297,546.94531 c -8.29688,0 -15.02344,6.72656 -15.02344,15.02344 0,8.30078 6.72656,15.02734 15.02344,15.02734 8.29687,0 15.02344,-6.72656 15.02344,-15.02734 0,-8.29688 -6.72657,-15.02344 -15.02344,-15.02344 z m 0,0"
+         clip-rule="nonzero"
+         id="path8" />
+    </clipPath>
+    <clipPath
+       id="d0cb3be092">
+      <path
+         d="M 0.769531,0.945312 H 30.816406 V 30.996094 H 0.769531 Z m 0,0"
+         clip-rule="nonzero"
+         id="path9" />
+    </clipPath>
+    <clipPath
+       id="6762069d62">
+      <path
+         d="m 15.792969,0.945312 c -8.296875,0 -15.023438,6.726563 -15.023438,15.023438 0,8.300781 6.726563,15.027344 15.023438,15.027344 8.296875,0 15.023437,-6.726563 15.023437,-15.027344 0,-8.296875 -6.726562,-15.023438 -15.023437,-15.023438 z m 0,0"
+         clip-rule="nonzero"
+         id="path10" />
+    </clipPath>
+    <clipPath
+       id="1ab687c7ba">
+      <rect
+         x="0"
+         width="31"
+         y="0"
+         height="31"
+         id="rect10" />
+    </clipPath>
+    <clipPath
+       id="0f71970642">
+      <path
+         d="m 674.76953,546.94531 h 30 v 30 h -30 z m 0,0"
+         clip-rule="nonzero"
+         id="path11" />
+    </clipPath>
+    <clipPath
+       id="8d306134fd">
+      <path
+         d="m 689.79297,546.94531 c -8.29688,0 -15.02344,6.72656 -15.02344,15.02344 0,8.29687 6.72656,15.02344 15.02344,15.02344 8.29687,0 15.02344,-6.72657 15.02344,-15.02344 0,-8.29688 -6.72657,-15.02344 -15.02344,-15.02344 z m 0,0"
+         clip-rule="nonzero"
+         id="path12" />
+    </clipPath>
+    <clipPath
+       id="9979ad7c8b">
+      <path
+         d="M 407.40625,438.28125 H 531.44141 V 552.5 H 407.40625 Z m 0,0"
+         clip-rule="nonzero"
+         id="path4-5" />
+    </clipPath>
+    <clipPath
+       id="aecad5806f">
+      <path
+         d="m 445.65625,438.28125 h 47.31641 c 10.14453,0 19.87109,4.03125 27.04687,11.20312 7.17188,7.17188 11.20313,16.90235 11.20313,27.04688 V 514.25 c 0,10.14844 -4.03125,19.875 -11.20313,27.04687 C 512.84375,548.47266 503.11719,552.5 492.97266,552.5 h -47.31641 c -10.14453,0 -19.875,-4.02734 -27.04688,-11.20313 C 411.43359,534.125 407.40625,524.39844 407.40625,514.25 v -37.71875 c 0,-10.14453 4.02734,-19.875 11.20312,-27.04688 7.17188,-7.17187 16.90235,-11.20312 27.04688,-11.20312 z m 0,0"
+         clip-rule="nonzero"
+         id="path5-0" />
+    </clipPath>
+    <clipPath
+       id="5bb0fdf577">
+      <rect
+         x="0"
+         width="125"
+         y="0"
+         height="115"
+         id="rect135" />
+    </clipPath>
+    <clipPath
+       id="996a4c247d">
+      <path
+         d="m 0.40625,0.28125 h 123.8125 V 114.5 H 0.40625 Z m 0,0"
+         clip-rule="nonzero"
+         id="path6-2" />
+    </clipPath>
+    <clipPath
+       id="b2b1395a5c">
+      <path
+         d="m 38.65625,0.28125 h 47.316406 c 10.144532,0 19.871094,4.03125 27.046874,11.203125 7.17188,7.171875 11.20313,16.902344 11.20313,27.046875 V 76.25 c 0,10.148438 -4.03125,19.875 -11.20313,27.04688 C 105.84375,110.47266 96.117188,114.5 85.972656,114.5 H 38.65625 c -10.144531,0 -19.875,-4.02734 -27.046875,-11.20312 C 4.433594,96.125 0.40625,86.398438 0.40625,76.25 V 38.53125 c 0,-10.144531 4.027344,-19.875 11.203125,-27.046875 C 18.78125,4.3125 28.511719,0.28125 38.65625,0.28125 Z m 0,0"
+         clip-rule="nonzero"
+         id="path7-0" />
+    </clipPath>
+    <linearGradient
+       x1="0.0034892501"
+       gradientTransform="matrix(0.446174,0,0,0.446174,0.403853,0.281336)"
+       y1="128"
+       x2="277.50699"
+       gradientUnits="userSpaceOnUse"
+       y2="128"
+       id="77b2f8f5ab">
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(0%, 0%, 0%)"
+         offset="0"
+         id="stop7" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(0.175476%, 0.175476%, 0.175476%)"
+         offset="0.0078125"
+         id="stop8" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(0.527954%, 0.527954%, 0.527954%)"
+         offset="0.015625"
+         id="stop9" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(0.880432%, 0.880432%, 0.880432%)"
+         offset="0.0234375"
+         id="stop10" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(1.23291%, 1.23291%, 1.23291%)"
+         offset="0.03125"
+         id="stop11" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(1.585388%, 1.585388%, 1.585388%)"
+         offset="0.0390625"
+         id="stop12" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(1.93634%, 1.93634%, 1.93634%)"
+         offset="0.046875"
+         id="stop13" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(2.288818%, 2.288818%, 2.288818%)"
+         offset="0.0546875"
+         id="stop14" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(2.641296%, 2.641296%, 2.641296%)"
+         offset="0.0625"
+         id="stop15" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(2.993774%, 2.993774%, 2.993774%)"
+         offset="0.0703125"
+         id="stop16" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(3.346252%, 3.346252%, 3.346252%)"
+         offset="0.078125"
+         id="stop17" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(3.69873%, 3.69873%, 3.69873%)"
+         offset="0.0859375"
+         id="stop18" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(4.051208%, 4.051208%, 4.051208%)"
+         offset="0.09375"
+         id="stop19" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(4.403687%, 4.403687%, 4.403687%)"
+         offset="0.101562"
+         id="stop20" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(4.756165%, 4.756165%, 4.756165%)"
+         offset="0.109375"
+         id="stop21" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(5.108643%, 5.108643%, 5.108643%)"
+         offset="0.117188"
+         id="stop22" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(5.461121%, 5.461121%, 5.461121%)"
+         offset="0.125"
+         id="stop23" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(5.812073%, 5.812073%, 5.812073%)"
+         offset="0.132812"
+         id="stop24" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(6.164551%, 6.164551%, 6.164551%)"
+         offset="0.140625"
+         id="stop25" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(6.517029%, 6.517029%, 6.517029%)"
+         offset="0.148438"
+         id="stop26" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(6.869507%, 6.869507%, 6.869507%)"
+         offset="0.15625"
+         id="stop27" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(7.221985%, 7.221985%, 7.221985%)"
+         offset="0.164062"
+         id="stop28" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(7.574463%, 7.574463%, 7.574463%)"
+         offset="0.171875"
+         id="stop29" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(7.926941%, 7.926941%, 7.926941%)"
+         offset="0.179688"
+         id="stop30" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(8.279419%, 8.279419%, 8.279419%)"
+         offset="0.1875"
+         id="stop31" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(8.631897%, 8.631897%, 8.631897%)"
+         offset="0.195312"
+         id="stop32" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(8.984375%, 8.984375%, 8.984375%)"
+         offset="0.203125"
+         id="stop33" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(9.336853%, 9.336853%, 9.336853%)"
+         offset="0.210938"
+         id="stop34" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(9.687805%, 9.687805%, 9.687805%)"
+         offset="0.21875"
+         id="stop35" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(10.040283%, 10.040283%, 10.040283%)"
+         offset="0.226562"
+         id="stop36" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(10.392761%, 10.392761%, 10.392761%)"
+         offset="0.234375"
+         id="stop37" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(10.745239%, 10.745239%, 10.745239%)"
+         offset="0.242188"
+         id="stop38" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(11.097717%, 11.097717%, 11.097717%)"
+         offset="0.25"
+         id="stop39" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(11.450195%, 11.450195%, 11.450195%)"
+         offset="0.257812"
+         id="stop40" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(11.802673%, 11.802673%, 11.802673%)"
+         offset="0.265625"
+         id="stop41" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(12.155151%, 12.155151%, 12.155151%)"
+         offset="0.273438"
+         id="stop42" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(12.507629%, 12.507629%, 12.507629%)"
+         offset="0.28125"
+         id="stop43" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(12.860107%, 12.860107%, 12.860107%)"
+         offset="0.289062"
+         id="stop44" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(13.212585%, 13.212585%, 13.212585%)"
+         offset="0.296875"
+         id="stop45" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(13.563538%, 13.563538%, 13.563538%)"
+         offset="0.304688"
+         id="stop46" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(13.916016%, 13.916016%, 13.916016%)"
+         offset="0.3125"
+         id="stop47" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(14.268494%, 14.268494%, 14.268494%)"
+         offset="0.320312"
+         id="stop48" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(14.620972%, 14.620972%, 14.620972%)"
+         offset="0.328125"
+         id="stop49" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(14.97345%, 14.97345%, 14.97345%)"
+         offset="0.335938"
+         id="stop50" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(15.325928%, 15.325928%, 15.325928%)"
+         offset="0.34375"
+         id="stop51" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(15.678406%, 15.678406%, 15.678406%)"
+         offset="0.351562"
+         id="stop52" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(16.030884%, 16.030884%, 16.030884%)"
+         offset="0.359375"
+         id="stop53" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(16.383362%, 16.383362%, 16.383362%)"
+         offset="0.367188"
+         id="stop54" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(16.73584%, 16.73584%, 16.73584%)"
+         offset="0.375"
+         id="stop55" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(17.088318%, 17.088318%, 17.088318%)"
+         offset="0.382812"
+         id="stop56" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(17.43927%, 17.43927%, 17.43927%)"
+         offset="0.390625"
+         id="stop57" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(17.791748%, 17.791748%, 17.791748%)"
+         offset="0.398438"
+         id="stop58" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(18.144226%, 18.144226%, 18.144226%)"
+         offset="0.40625"
+         id="stop59" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(18.496704%, 18.496704%, 18.496704%)"
+         offset="0.414062"
+         id="stop60" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(18.849182%, 18.849182%, 18.849182%)"
+         offset="0.421875"
+         id="stop61" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(19.20166%, 19.20166%, 19.20166%)"
+         offset="0.429688"
+         id="stop62" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(19.554138%, 19.554138%, 19.554138%)"
+         offset="0.4375"
+         id="stop63" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(19.906616%, 19.906616%, 19.906616%)"
+         offset="0.445312"
+         id="stop64" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(20.259094%, 20.259094%, 20.259094%)"
+         offset="0.453125"
+         id="stop65" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(20.611572%, 20.611572%, 20.611572%)"
+         offset="0.460938"
+         id="stop66" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(20.96405%, 20.96405%, 20.96405%)"
+         offset="0.46875"
+         id="stop67" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(21.315002%, 21.315002%, 21.315002%)"
+         offset="0.476562"
+         id="stop68" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(21.66748%, 21.66748%, 21.66748%)"
+         offset="0.484375"
+         id="stop69" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(22.019958%, 22.019958%, 22.019958%)"
+         offset="0.492188"
+         id="stop70" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(22.372437%, 22.372437%, 22.372437%)"
+         offset="0.5"
+         id="stop71" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(22.724915%, 22.724915%, 22.724915%)"
+         offset="0.507812"
+         id="stop72" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(23.077393%, 23.077393%, 23.077393%)"
+         offset="0.515625"
+         id="stop73" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(23.429871%, 23.429871%, 23.429871%)"
+         offset="0.523438"
+         id="stop74" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(23.782349%, 23.782349%, 23.782349%)"
+         offset="0.53125"
+         id="stop75" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(24.134827%, 24.134827%, 24.134827%)"
+         offset="0.539062"
+         id="stop76" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(24.487305%, 24.487305%, 24.487305%)"
+         offset="0.546875"
+         id="stop77" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(24.839783%, 24.839783%, 24.839783%)"
+         offset="0.554688"
+         id="stop78" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(25.190735%, 25.190735%, 25.190735%)"
+         offset="0.5625"
+         id="stop79" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(25.543213%, 25.543213%, 25.543213%)"
+         offset="0.570312"
+         id="stop80" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(25.895691%, 25.895691%, 25.895691%)"
+         offset="0.578125"
+         id="stop81" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(26.248169%, 26.248169%, 26.248169%)"
+         offset="0.585938"
+         id="stop82" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(26.600647%, 26.600647%, 26.600647%)"
+         offset="0.59375"
+         id="stop83" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(26.953125%, 26.953125%, 26.953125%)"
+         offset="0.601562"
+         id="stop84" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(27.305603%, 27.305603%, 27.305603%)"
+         offset="0.609375"
+         id="stop85" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(27.658081%, 27.658081%, 27.658081%)"
+         offset="0.617188"
+         id="stop86" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(28.010559%, 28.010559%, 28.010559%)"
+         offset="0.625"
+         id="stop87" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(28.363037%, 28.363037%, 28.363037%)"
+         offset="0.632812"
+         id="stop88" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(28.715515%, 28.715515%, 28.715515%)"
+         offset="0.640625"
+         id="stop89" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(29.066467%, 29.066467%, 29.066467%)"
+         offset="0.648438"
+         id="stop90" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(29.418945%, 29.418945%, 29.418945%)"
+         offset="0.65625"
+         id="stop91" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(29.771423%, 29.771423%, 29.771423%)"
+         offset="0.664062"
+         id="stop92" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(30.123901%, 30.123901%, 30.123901%)"
+         offset="0.671875"
+         id="stop93" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(30.476379%, 30.476379%, 30.476379%)"
+         offset="0.679688"
+         id="stop94" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(30.828857%, 30.828857%, 30.828857%)"
+         offset="0.6875"
+         id="stop95" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(31.181335%, 31.181335%, 31.181335%)"
+         offset="0.695312"
+         id="stop96" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(31.533813%, 31.533813%, 31.533813%)"
+         offset="0.703125"
+         id="stop97" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(31.886292%, 31.886292%, 31.886292%)"
+         offset="0.710938"
+         id="stop98" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(32.23877%, 32.23877%, 32.23877%)"
+         offset="0.71875"
+         id="stop99" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(32.591248%, 32.591248%, 32.591248%)"
+         offset="0.726562"
+         id="stop100" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(32.9422%, 32.9422%, 32.9422%)"
+         offset="0.734375"
+         id="stop101" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(33.294678%, 33.294678%, 33.294678%)"
+         offset="0.742188"
+         id="stop102" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(33.647156%, 33.647156%, 33.647156%)"
+         offset="0.75"
+         id="stop103" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(33.999634%, 33.999634%, 33.999634%)"
+         offset="0.757812"
+         id="stop104" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(34.352112%, 34.352112%, 34.352112%)"
+         offset="0.765625"
+         id="stop105" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(34.70459%, 34.70459%, 34.70459%)"
+         offset="0.773438"
+         id="stop106" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(35.057068%, 35.057068%, 35.057068%)"
+         offset="0.78125"
+         id="stop107" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(35.409546%, 35.409546%, 35.409546%)"
+         offset="0.789062"
+         id="stop108" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(35.762024%, 35.762024%, 35.762024%)"
+         offset="0.796875"
+         id="stop109" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(36.114502%, 36.114502%, 36.114502%)"
+         offset="0.804688"
+         id="stop110" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(36.46698%, 36.46698%, 36.46698%)"
+         offset="0.8125"
+         id="stop111" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(36.817932%, 36.817932%, 36.817932%)"
+         offset="0.820312"
+         id="stop112" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(37.17041%, 37.17041%, 37.17041%)"
+         offset="0.828125"
+         id="stop113" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(37.522888%, 37.522888%, 37.522888%)"
+         offset="0.835938"
+         id="stop114" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(37.875366%, 37.875366%, 37.875366%)"
+         offset="0.84375"
+         id="stop115" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(38.227844%, 38.227844%, 38.227844%)"
+         offset="0.851562"
+         id="stop116" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(38.580322%, 38.580322%, 38.580322%)"
+         offset="0.859375"
+         id="stop117" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(38.9328%, 38.9328%, 38.9328%)"
+         offset="0.867188"
+         id="stop118" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(39.285278%, 39.285278%, 39.285278%)"
+         offset="0.875"
+         id="stop119" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(39.637756%, 39.637756%, 39.637756%)"
+         offset="0.882812"
+         id="stop120" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(39.990234%, 39.990234%, 39.990234%)"
+         offset="0.890625"
+         id="stop121" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(40.342712%, 40.342712%, 40.342712%)"
+         offset="0.898438"
+         id="stop122" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(40.693665%, 40.693665%, 40.693665%)"
+         offset="0.90625"
+         id="stop123" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(41.046143%, 41.046143%, 41.046143%)"
+         offset="0.914062"
+         id="stop124" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(41.398621%, 41.398621%, 41.398621%)"
+         offset="0.921875"
+         id="stop125" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(41.751099%, 41.751099%, 41.751099%)"
+         offset="0.929688"
+         id="stop126" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(42.103577%, 42.103577%, 42.103577%)"
+         offset="0.9375"
+         id="stop127" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(42.456055%, 42.456055%, 42.456055%)"
+         offset="0.945312"
+         id="stop128" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(42.808533%, 42.808533%, 42.808533%)"
+         offset="0.953125"
+         id="stop129" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(43.161011%, 43.161011%, 43.161011%)"
+         offset="0.960938"
+         id="stop130" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(43.513489%, 43.513489%, 43.513489%)"
+         offset="0.96875"
+         id="stop131" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(43.865967%, 43.865967%, 43.865967%)"
+         offset="0.976562"
+         id="stop132" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(44.218445%, 44.218445%, 44.218445%)"
+         offset="0.984375"
+         id="stop133" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(44.569397%, 44.569397%, 44.569397%)"
+         offset="0.992188"
+         id="stop134" />
+      <stop
+         stop-opacity="1"
+         stop-color="rgb(44.921875%, 44.921875%, 44.921875%)"
+         offset="1"
+         id="stop135" />
+    </linearGradient>
+    <clipPath
+       id="358e0b0782">
+      <path
+         d="m 419.6875,458.50781 h 18.46875 v 18.46875 H 419.6875 Z m 0,0"
+         clip-rule="nonzero"
+         id="path947" />
+    </clipPath>
+    <clipPath
+       id="881a2cae74">
+      <path
+         d="m 428.92187,458.50781 c -5.10156,0 -9.23437,4.13672 -9.23437,9.23438 0,5.10156 4.13281,9.23437 9.23437,9.23437 5.09766,0 9.23438,-4.13281 9.23438,-9.23437 0,-5.09766 -4.13672,-9.23438 -9.23438,-9.23438 z m 0,0"
+         clip-rule="nonzero"
+         id="path948" />
+    </clipPath>
+    <clipPath
+       id="13f8fcd6ae">
+      <rect
+         x="0"
+         width="20"
+         y="0"
+         height="19"
+         id="rect950" />
+    </clipPath>
+    <clipPath
+       id="7b18f39f70">
+      <path
+         d="m 0.6875,0.507812 h 18.46875 v 18.46875 H 0.6875 Z m 0,0"
+         clip-rule="nonzero"
+         id="path949" />
+    </clipPath>
+    <clipPath
+       id="33ff0a97a2">
+      <path
+         d="m 9.921875,0.507812 c -5.101563,0 -9.234375,4.136719 -9.234375,9.234376 0,5.101562 4.132812,9.234374 9.234375,9.234374 5.097656,0 9.234375,-4.132812 9.234375,-9.234374 0,-5.097657 -4.136719,-9.234376 -9.234375,-9.234376 z m 0,0"
+         clip-rule="nonzero"
+         id="path950" />
+    </clipPath>
+    <clipPath
+       id="358e0b0782-7">
+      <path
+         d="m 419.6875,458.50781 h 18.46875 v 18.46875 H 419.6875 Z m 0,0"
+         clip-rule="nonzero"
+         id="path947-8" />
+    </clipPath>
+    <clipPath
+       id="881a2cae74-2">
+      <path
+         d="m 428.92187,458.50781 c -5.10156,0 -9.23437,4.13672 -9.23437,9.23438 0,5.10156 4.13281,9.23437 9.23437,9.23437 5.09766,0 9.23438,-4.13281 9.23438,-9.23437 0,-5.09766 -4.13672,-9.23438 -9.23438,-9.23438 z m 0,0"
+         clip-rule="nonzero"
+         id="path948-2" />
+    </clipPath>
+    <clipPath
+       id="13f8fcd6ae-0">
+      <rect
+         x="0"
+         width="20"
+         y="0"
+         height="19"
+         id="rect950-5" />
+    </clipPath>
+    <clipPath
+       id="7b18f39f70-5">
+      <path
+         d="m 0.6875,0.507812 h 18.46875 v 18.46875 H 0.6875 Z m 0,0"
+         clip-rule="nonzero"
+         id="path949-0" />
+    </clipPath>
+    <clipPath
+       id="33ff0a97a2-4">
+      <path
+         d="m 9.921875,0.507812 c -5.101563,0 -9.234375,4.136719 -9.234375,9.234376 0,5.101562 4.132812,9.234374 9.234375,9.234374 5.097656,0 9.234375,-4.132812 9.234375,-9.234374 0,-5.097657 -4.136719,-9.234376 -9.234375,-9.234376 z m 0,0"
+         clip-rule="nonzero"
+         id="path950-1" />
+    </clipPath>
+  </defs>
+  <rect
+     x="-10.161142"
+     width="145.97821"
+     fill="#ffffff"
+     y="-10.865059"
+     height="143.37225"
+     fill-opacity="1"
+     id="rect13"
+     style="stroke-width:0.111627" />
+  <g
+     clip-path="url(#cc64ec0668)"
+     id="g26"
+     transform="translate(-657.75001,-348.00001)">
+    <g
+       clip-path="url(#cb698315fb)"
+       id="g25">
+      <g
+         transform="translate(674,546)"
+         id="g24">
+        <g
+           clip-path="url(#1ab687c7ba)"
+           id="g23">
+          <g
+             clip-path="url(#d0cb3be092)"
+             id="g22">
+            <g
+               clip-path="url(#6762069d62)"
+               id="g21">
+              <path
+                 fill="#ffffff"
+                 d="M 0.769531,0.945312 H 30.816406 V 30.996094 H 0.769531 Z m 0,0"
+                 fill-opacity="1"
+                 fill-rule="nonzero"
+                 id="path20" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     clip-path="url(#9979ad7c8b)"
+     id="g988"
+     transform="translate(-407.40625,-438.28125)">
+    <g
+       clip-path="url(#aecad5806f)"
+       id="g987">
+      <g
+         transform="translate(407,438)"
+         id="g986">
+        <g
+           clip-path="url(#5bb0fdf577)"
+           id="g985">
+          <g
+             clip-path="url(#996a4c247d)"
+             id="g984">
+            <g
+               clip-path="url(#b2b1395a5c)"
+               id="g983">
+              <path
+                 fill="url(#77b2f8f5ab)"
+                 d="M 0.40625,0.28125 V 114.5 h 123.8125 V 0.28125 Z m 0,0"
+                 fill-rule="nonzero"
+                 id="path982"
+                 style="fill:url(#77b2f8f5ab)" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     clip-path="url(#358e0b0782)"
+     id="g1083"
+     transform="translate(-381.7218,-440.73469)">
+    <g
+       clip-path="url(#881a2cae74)"
+       id="g1082">
+      <g
+         transform="translate(419,458)"
+         id="g1081">
+        <g
+           clip-path="url(#13f8fcd6ae)"
+           id="g1080">
+          <g
+             clip-path="url(#7b18f39f70)"
+             id="g1079">
+            <g
+               clip-path="url(#33ff0a97a2)"
+               id="g1078">
+              <path
+                 fill="#ffffff"
+                 d="m 0.6875,0.507812 h 18.46875 v 18.46875 H 0.6875 Z m 0,0"
+                 fill-opacity="1"
+                 fill-rule="nonzero"
+                 id="path1077" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     clip-path="url(#358e0b0782-7)"
+     id="g1083-6"
+     transform="translate(-404.17347,-441.08552)">
+    <g
+       clip-path="url(#881a2cae74-2)"
+       id="g1082-2">
+      <g
+         transform="translate(419,458)"
+         id="g1081-5">
+        <g
+           clip-path="url(#13f8fcd6ae-0)"
+           id="g1080-3">
+          <g
+             clip-path="url(#7b18f39f70-5)"
+             id="g1079-2">
+            <g
+               clip-path="url(#33ff0a97a2-4)"
+               id="g1078-2">
+              <path
+                 fill="#ffffff"
+                 d="m 0.6875,0.507812 h 18.46875 v 18.46875 H 0.6875 Z m 0,0"
+                 fill-opacity="1"
+                 fill-rule="nonzero"
+                 id="path1077-8" />
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,249 @@
+% set file name postfix for each language
+\IfLanguageName{english}{\newcommand{\BrochureLanguagePostfix}{-eng}}{}
+\IfLanguageName{french}{\newcommand{\BrochureLanguagePostfix}{-fra}}{}
+\IfLanguageName{italian}{\newcommand{\BrochureLanguagePostfix}{-ita}}{}
+
+\setquotestyle{BrochureQuoteStyle\BrochureLanguagePostfix}
+
+% setting special formattings for Swiss French
+\IfLanguageName{french}{
+  \frenchsetup{ThinColonSpace=true}%
+  \renewcommand\thinspace{\kern 0.12em}%
+  \renewcommand*{\FBguillspace}{\hskip .4\fontdimen2\font plus .1\fontdimen3\font minus .3\fontdimen4\font \relax}%
+  \renewcommand\FBthinspace{\thinspace{}}%
+  % Don't do the following: this screws up QR codes and maybe URLs
+  %\defineshorthand[french]{:}{\thinspace{}:}%
+  %\defineshorthand[french]{;}{\thinspace{};}%
+  %\defineshorthand[french]{!}{\thinspace{}!}%
+  %\defineshorthand[french]{?}{\thinspace{}?}%
+}{}
+
+% input a task file
+\newcommand{\BrochureTask}[2]{
+  \typeout{}\typeout{}\typeout{===== Including task #1 - #2 =====}\typeout{}%
+  \renewcommand{\taskID}{#1}%
+  \renewcommand{\taskGraphicsFolder}{../3_india_contest/1_tasks/#1_#2}%
+  \renewcommand{\taskBrochureFile}{../3_india_contest/1_tasks/#1_#2/derived/#1\BrochureLanguagePostfix_brochure}%
+  \input{\taskBrochureFile}%
+}
+
+\newcommand{\BrochureStartProgrammingTasks}{
+  \BrochureSetHeadersForNonTasks{}%
+  \markboth{}{}%
+  \input{main/programming\BrochureLanguagePostfix}%
+  \cleardoublepage{}%
+  \BrochureSetHeadersForTasks{}%
+}
+
+% initialize age difficulty variables
+% 0 = not posed in this age group
+% 1 = easy
+% 2 = medium
+% 3 = hard
+% 4 = bonus
+\newcounter{taskAgeDifficulty3to4}
+\newcounter{taskAgeDifficulty5to6}
+\newcounter{taskAgeDifficulty7to8}
+\newcounter{taskAgeDifficulty9to10}
+\newcounter{taskAgeDifficulty11to13}
+
+% initialize age difficulty names
+\IfLanguageName{english}{\newcommand{\BrochureEasy}{easy}\newcommand{\BrochureMedium}{medium}\newcommand{\BrochureHard}{hard}\newcommand{\BrochureBonus}{bonus}}{}
+\IfLanguageName{french}{\newcommand{\BrochureEasy}{facile}\newcommand{\BrochureMedium}{moyen}\newcommand{\BrochureHard}{difficile}\newcommand{\BrochureBonus}{bonus}}{}
+\IfLanguageName{italian}{\newcommand{\BrochureEasy}{facile}\newcommand{\BrochureMedium}{medio}\newcommand{\BrochureHard}{difficile}\newcommand{\BrochureBonus}{bonus}}{}
+
+% initialize text commands
+\newcommand{\taskID}{}
+\newcommand{\taskTitle}{}
+\newcommand{\taskGraphicsFolder}{}
+\newcommand{\taskBrochureFile}{}
+\IfLanguageName{english}{\newcommand{\BrochureAgeCategoryThreeToFour}{3/4}\newcommand{\BrochureAgeCategoryFiveToSix}{5/6}\newcommand{\BrochureAgeCategorySevenToEight}{7/8}\newcommand{\BrochureAgeCategoryNineToTen}{9/10}\newcommand{\BrochureAgeCategoryElevenToThirteen}{11/12}}{}
+\IfLanguageName{french}{\newcommand{\BrochureAgeCategoryThreeToFour}{5/6\textsuperscript{H}}\newcommand{\BrochureAgeCategoryFiveToSix}{7/8\textsuperscript{H}}\newcommand{\BrochureAgeCategorySevenToEight}{9/10\textsuperscript{H}}\newcommand{\BrochureAgeCategoryNineToTen}{11/12\textsuperscript{H}}\newcommand{\BrochureAgeCategoryElevenToThirteen}{13--15\textsuperscript{H}}}{}
+\IfLanguageName{italian}{\newcommand{\BrochureAgeCategoryThreeToFour}{3/4}\newcommand{\BrochureAgeCategoryFiveToSix}{5/6}\newcommand{\BrochureAgeCategorySevenToEight}{7/8}\newcommand{\BrochureAgeCategoryNineToTen}{9/10}\newcommand{\BrochureAgeCategoryElevenToThirteen}{11--13}}{}
+\newcounter{BrochureHeaderGenerationTemp}
+\newcommand{\taskDifficulties}{%
+  (%
+  % age category 3/4
+  \ifthenelse{\value{taskAgeDifficulty3to4}=0}%
+    {}%
+    {\ifthenelse{\value{taskAgeDifficulty3to4}=1}%
+      {\BrochureAgeCategoryThreeToFour: \BrochureEasy}%
+      {\ifthenelse{\value{taskAgeDifficulty3to4}=2}%
+        {\BrochureAgeCategoryThreeToFour: \BrochureMedium}%
+        {\ifthenelse{\value{taskAgeDifficulty3to4}=3}%
+          {\BrochureAgeCategoryThreeToFour: \BrochureHard}%
+          {\BrochureAgeCategoryThreeToFour: \BrochureBonus}%
+        }%
+      }%
+    \setcounter{BrochureHeaderGenerationTemp}{0}%
+    \addtocounter{BrochureHeaderGenerationTemp}{\value{taskAgeDifficulty5to6}}%
+    \addtocounter{BrochureHeaderGenerationTemp}{\value{taskAgeDifficulty7to8}}%
+    \addtocounter{BrochureHeaderGenerationTemp}{\value{taskAgeDifficulty9to10}}%
+    \addtocounter{BrochureHeaderGenerationTemp}{\value{taskAgeDifficulty11to13}}%
+    \ifthenelse{\value{BrochureHeaderGenerationTemp}>0}%
+      {; }%
+      {}%
+    }%
+  % age category 5/6
+  \ifthenelse{\value{taskAgeDifficulty5to6}=0}%
+    {}%
+    {\ifthenelse{\value{taskAgeDifficulty5to6}=1}%
+      {\BrochureAgeCategoryFiveToSix: \BrochureEasy}%
+      {\ifthenelse{\value{taskAgeDifficulty5to6}=2}%
+        {\BrochureAgeCategoryFiveToSix: \BrochureMedium}%
+        {\ifthenelse{\value{taskAgeDifficulty5to6}=3}%
+          {\BrochureAgeCategoryFiveToSix: \BrochureHard}%
+          {\BrochureAgeCategoryFiveToSix: \BrochureBonus}%
+        }%
+      }%
+    \setcounter{BrochureHeaderGenerationTemp}{0}%
+    \addtocounter{BrochureHeaderGenerationTemp}{\value{taskAgeDifficulty7to8}}%
+    \addtocounter{BrochureHeaderGenerationTemp}{\value{taskAgeDifficulty9to10}}%
+    \addtocounter{BrochureHeaderGenerationTemp}{\value{taskAgeDifficulty11to13}}%
+    \ifthenelse{\value{BrochureHeaderGenerationTemp}>0}%
+      {; }%
+      {}%
+    }%
+  % age category 7/8
+  \ifthenelse{\value{taskAgeDifficulty7to8}=0}%
+    {}%
+    {\ifthenelse{\value{taskAgeDifficulty7to8}=1}%
+      {\BrochureAgeCategorySevenToEight: \BrochureEasy}%
+      {\ifthenelse{\value{taskAgeDifficulty7to8}=2}%
+        {\BrochureAgeCategorySevenToEight: \BrochureMedium}%
+        {\ifthenelse{\value{taskAgeDifficulty7to8}=3}%
+          {\BrochureAgeCategorySevenToEight: \BrochureHard}%
+          {\BrochureAgeCategorySevenToEight: \BrochureBonus}%
+        }%
+      }%
+    \setcounter{BrochureHeaderGenerationTemp}{0}%
+    \addtocounter{BrochureHeaderGenerationTemp}{\value{taskAgeDifficulty9to10}}%
+    \addtocounter{BrochureHeaderGenerationTemp}{\value{taskAgeDifficulty11to13}}%
+    \ifthenelse{\value{BrochureHeaderGenerationTemp}>0}%
+      {; }%
+      {}%
+    }%
+  % age category 9/10
+  \ifthenelse{\value{taskAgeDifficulty9to10}=0}%
+    {}%
+    {\ifthenelse{\value{taskAgeDifficulty9to10}=1}%
+      {\BrochureAgeCategoryNineToTen: \BrochureEasy}%
+      {\ifthenelse{\value{taskAgeDifficulty9to10}=2}%
+        {\BrochureAgeCategoryNineToTen: \BrochureMedium}%
+        {\ifthenelse{\value{taskAgeDifficulty9to10}=3}%
+          {\BrochureAgeCategoryNineToTen: \BrochureHard}%
+          {\BrochureAgeCategoryNineToTen: \BrochureBonus}%
+        }%
+      }%
+    \ifthenelse{\value{taskAgeDifficulty11to13}>0}%
+      {; }%
+      {}%
+    }%
+  % age category 11-13
+  \ifthenelse{\value{taskAgeDifficulty11to13}=0}%
+    {}%
+    {\ifthenelse{\value{taskAgeDifficulty11to13}=1}%
+      {\BrochureAgeCategoryElevenToThirteen: \BrochureEasy}%
+      {\ifthenelse{\value{taskAgeDifficulty11to13}=2}%
+        {\BrochureAgeCategoryElevenToThirteen: \BrochureMedium}%
+        {\ifthenelse{\value{taskAgeDifficulty11to13}=3}%
+          {\BrochureAgeCategoryElevenToThirteen: \BrochureHard}%
+          {\BrochureAgeCategoryElevenToThirteen: \BrochureBonus}%
+        }%
+      }%
+    })%
+  }%
+
+\IfLanguageName{english}{\newcommand{\BrochureSolution}{Solution}}{}
+\IfLanguageName{french}{\newcommand{\BrochureSolution}{Solution}}{}
+\IfLanguageName{italian}{\newcommand{\BrochureSolution}{Soluzione}}{}
+
+\IfLanguageName{english}{\newcommand{\BrochureItsInformatics}{This is Computer Science!}}{}
+\IfLanguageName{french}{\newcommand{\BrochureItsInformatics}{C'est de l'informatique\thinspace{}!}}{}
+\IfLanguageName{italian}{\newcommand{\BrochureItsInformatics}{Questa è l'informatica!}}{}
+
+\IfLanguageName{german}{\newcommand{\BrochureWebsitesAndKeywords}{Stichwörter und Webseiten}}{}
+\IfLanguageName{french}{\newcommand{\BrochureWebsitesAndKeywords}{Mots clés et sites web}}{}
+\IfLanguageName{italian}{\newcommand{\BrochureWebsitesAndKeywords}{Parole chiave e siti web}}{}
+
+\IfLanguageName{english}{\newcommand{\BrochureCopyright}{\copyright{} \href{https://www.bebras.in/}{Bebras India} \BrochureYear, \href{http://bebras.cspathshala.org/}{CSpathshala}}}{}
+\IfLanguageName{french}{\newcommand{\BrochureCopyright}{\copyright{} \href{https://www.castor-informatique.ch/}{Castor Informatique} \BrochureYear, \href{http://www.svia-ssie-ssii.ch/}{SSIE}}}{}
+\IfLanguageName{italian}{\newcommand{\BrochureCopyright}{\copyright{} \href{https://www.castoro-informatico.ch/}{Castoro Informatico} \BrochureYear, \href{http://www.svia-ssie-ssii.ch/}{SSII}}}{}
+
+\IfLanguageName{english}{\newcommand{\BrochureAuthors}{Authors}}{}
+\IfLanguageName{french}{\newcommand{\BrochureAuthors}{Auteur·e·s des exercices}}{}
+\IfLanguageName{italian}{\newcommand{\BrochureAuthors}{Autori dei quesiti}}{}
+
+% initialize country ID
+% must be two letter lower case country code
+\newcommand{\taskCountry}{}
+
+% renew chapter command so that it also included a fancy header
+\newcommand{\newchapter}[1]{\chapter{#1}\thispagestyle{scrheadings}}
+
+% for inputting a flag of two letter country code #1
+\newcommand{\BrochureFlag}[2]{\setlength{\fboxsep}{0pt}\setlength{\fboxrule}{0.05pt}\setlength{\shadowsize}{1pt}\shadowbox{\includegraphicsnosvg[height=10pt]{graphics/flags/#1.pdf}}}
+
+% for inputting a graphic in a task (intended for within text)
+% #1: width of graphic
+% #2: name of graphic
+\newcommand{\BrochureInlineGraphic}[2]{\includegraphics[width=#1]{tasks/\taskID/#2}}
+
+% for inputting a graphic in a task (intended as a cell content)
+% #1: width of graphic
+% #2: name of graphic
+\newcommand{\BrochureGraphic}[2]{\raisebox{-0.5\height}{\BrochureInlineGraphic{#1}{#2}}}
+
+% for inputting a centered graphic in a task
+% #1: width of graphic
+% #2: name of graphic
+\newcommand{\BrochureCenterGraphic}[2]{\begin{center}\BrochureGraphic{#1}{#2}\end{center}}
+
+% for inputting a text wrapping right hand graphic in a task
+% #1: width of graphic
+% #2: name of graphic
+\newcommand{\BrochureRightGraphic}[2]{\begin{wrapfigure}{r}{0pt}\raisebox{-.46cm}[\height-.92cm][-.46cm]{\includegraphics[width=#1]{tasks/\taskID/#2}}\end{wrapfigure}}
+
+% for inputting a text wrapping left hand graphic in a task
+% #1: width of graphic
+% #2: name of graphic
+\newcommand{\BrochureLeftGraphic}[2]{\begin{wrapfigure}{l}{0pt}\raisebox{-.46cm}[\height-.92cm][-.46cm]{\includegraphics[width=#1]{tasks/\taskID/#2}}\end{wrapfigure}}
+
+% for formatting the visible part of a url (not the link)
+% #1: text of url to display
+\newcommand{\BrochureUrlText}[1]{{\ttfamily #1}}
+
+% for formatting short inline code
+% #1: body of code to display
+\newcommand{\BrochureInlineCode}[1]{{\ttfamily #1}}
+
+% for formatting longer code
+\lstnewenvironment{BrochureCode}{%
+  \lstset{
+      basicstyle=\ttfamily,
+      aboveskip=\parskip,
+      belowskip=\parskip,
+      escapeinside={\%*}{*)},
+      columns=flexible
+  }}{}
+
+% for forcing potentially multi-paragraph text on the same page
+\newenvironment{BrochureNoBreak}
+  { % Save the surrounding spacing (minipage resets it)
+    \edef\PMparskip{\the\parskip}
+    \edef\PMparindent{\the\parindent}
+    \edef\PMbaselineskip{\the\baselineskip}
+    \edef\PMitemsep{\the\itemsep}
+    \edef\PMparsep{\the\parsep}
+    \edef\PMtopsep{\the\topsep}
+    \edef\PMpartopsep{\the\partopsep}
+    % Begin minipage and restore everything inside
+    \begin{minipage}[t]{\linewidth}
+      \setlength{\parskip}{\PMparskip}
+      \setlength{\parindent}{\PMparindent}
+      \setlength{\baselineskip}{\PMbaselineskip}
+      \setlength{\itemsep}{\PMitemsep}
+      \setlength{\parsep}{\PMparsep}
+      \setlength{\topsep}{\PMtopsep}
+      \setlength{\partopsep}{\PMpartopsep}\ignorespaces}
+  {\par\end{minipage}\par\ignorespaces}

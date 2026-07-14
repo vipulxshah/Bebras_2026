@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="plateRimGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0EAE0"/>
+      <stop offset="60%" stop-color="#E0D8CC"/>
+      <stop offset="100%" stop-color="#B8AFA4"/>
+    </linearGradient>
+    <linearGradient id="plateFaceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF6F0"/>
+      <stop offset="100%" stop-color="#EDE5D8"/>
+    </linearGradient>
+    <linearGradient id="riceMoundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEFDF5"/>
+      <stop offset="100%" stop-color="#E8E4D0"/>
+    </linearGradient>
+    <linearGradient id="shadowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00000030"/>
+      <stop offset="100%" stop-color="#00000000"/>
+    </linearGradient>
+    <radialGradient id="riceSurface" cx="45%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#FEFEF8"/>
+      <stop offset="100%" stop-color="#D8D4C0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ── Plate base / foot ── -->
+  <ellipse cx="200" cy="298" rx="80" ry="10" fill="#C8BFB4"/>
+  <ellipse cx="200" cy="298" rx="80" ry="10" fill="url(#shadowGrad)"/>
+  <path d="M 124,296 A 80,10 0 0,1 276,296" stroke="#E0D8CE" stroke-width="2" fill="none"/>
+
+  <!-- ── Plate body (curved side wall) ── -->
+  <path d="M 42,245 Q 42,298 200,298 Q 358,298 358,245 L 358,252 Q 358,295 200,295 Q 42,295 42,252 Z"
+        fill="url(#plateRimGrad)"/>
+  <path d="M 42,255 Q 42,300 200,300 Q 358,300 358,255 L 358,258 Q 358,305 200,305 Q 42,305 42,258 Z"
+        fill="#B0A898"/>
+  <path d="M 44,245 Q 44,290 200,290 Q 356,290 356,245"
+        stroke="#FFFFFF" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <!-- ── Plate face ── -->
+  <ellipse cx="200" cy="245" rx="158" ry="28" fill="url(#plateFaceGrad)"/>
+  <ellipse cx="200" cy="243" rx="138" ry="22" fill="#F5EFE6"/>
+
+  <!-- ── Rice mound base (dome shape) ── -->
+  <path d="M 82,243 Q 90,195 200,182 Q 310,195 318,243 Z" fill="url(#riceMoundGrad)"/>
+  <ellipse cx="200" cy="243" rx="118" ry="18" fill="#E8E4D4"/>
+  <!-- Mound surface sheen -->
+  <path d="M 105,215 Q 145,196 200,192 Q 255,196 290,213"
+        stroke="#FEFEF5" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- ── Individual rice grains scattered over mound ── -->
+  <!-- Layer 1 — back, smaller -->
+  <ellipse cx="160" cy="210" rx="5" ry="2.2" fill="#FEFEF8" transform="rotate(-15,160,210)"/>
+  <ellipse cx="180" cy="204" rx="5" ry="2.2" fill="#F8F6EC" transform="rotate(10,180,204)"/>
+  <ellipse cx="200" cy="200" rx="5" ry="2.2" fill="#FEFEF8" transform="rotate(-5,200,200)"/>
+  <ellipse cx="220" cy="204" rx="5" ry="2.2" fill="#F8F6EC" transform="rotate(20,220,204)"/>
+  <ellipse cx="240" cy="210" rx="5" ry="2.2" fill="#FEFEF8" transform="rotate(-12,240,210)"/>
+  <ellipse cx="170" cy="197" rx="4.5" ry="2" fill="#F5F3E8" transform="rotate(8,170,197)"/>
+  <ellipse cx="190" cy="193" rx="4.5" ry="2" fill="#FEFEF8" transform="rotate(-18,190,193)"/>
+  <ellipse cx="210" cy="196" rx="4.5" ry="2" fill="#F5F3E8" transform="rotate(12,210,196)"/>
+  <ellipse cx="230" cy="202" rx="4.5" ry="2" fill="#FEFEF8" transform="rotate(-8,230,202)"/>
+
+  <!-- Layer 2 — mid -->
+  <ellipse cx="148" cy="218" rx="5.5" ry="2.4" fill="#FEFEF8" transform="rotate(-20,148,218)"/>
+  <ellipse cx="168" cy="213" rx="5.5" ry="2.4" fill="#F8F6EC" transform="rotate(15,168,213)"/>
+  <ellipse cx="188" cy="208" rx="5.5" ry="2.4" fill="#FEFEF8" transform="rotate(-10,188,208)"/>
+  <ellipse cx="208" cy="206" rx="5.5" ry="2.4" fill="#F5F3E8" transform="rotate(5,208,206)"/>
+  <ellipse cx="228" cy="210" rx="5.5" ry="2.4" fill="#FEFEF8" transform="rotate(-22,228,210)"/>
+  <ellipse cx="248" cy="216" rx="5.5" ry="2.4" fill="#F8F6EC" transform="rotate(14,248,216)"/>
+  <ellipse cx="135" cy="226" rx="5" ry="2.2" fill="#FEFEF8" transform="rotate(10,135,226)"/>
+  <ellipse cx="260" cy="220" rx="5" ry="2.2" fill="#F8F6EC" transform="rotate(-16,260,220)"/>
+
+  <!-- Layer 3 — front, larger -->
+  <ellipse cx="120" cy="232" rx="6" ry="2.6" fill="#FEFEF8" transform="rotate(-18,120,232)"/>
+  <ellipse cx="143" cy="226" rx="6" ry="2.6" fill="#F5F3E8" transform="rotate(12,143,226)"/>
+  <ellipse cx="165" cy="222" rx="6" ry="2.6" fill="#FEFEF8" transform="rotate(-8,165,222)"/>
+  <ellipse cx="186" cy="219" rx="6" ry="2.6" fill="#F8F6EC" transform="rotate(18,186,219)"/>
+  <ellipse cx="207" cy="218" rx="6" ry="2.6" fill="#FEFEF8" transform="rotate(-14,207,218)"/>
+  <ellipse cx="228" cy="220" rx="6" ry="2.6" fill="#F5F3E8" transform="rotate(9,228,220)"/>
+  <ellipse cx="250" cy="224" rx="6" ry="2.6" fill="#FEFEF8" transform="rotate(-20,250,224)"/>
+  <ellipse cx="272" cy="229" rx="6" ry="2.6" fill="#F8F6EC" transform="rotate(15,272,229)"/>
+  <ellipse cx="108" cy="237" rx="5.5" ry="2.4" fill="#FEFEF8" transform="rotate(-10,108,237)"/>
+  <ellipse cx="290" cy="234" rx="5.5" ry="2.4" fill="#F5F3E8" transform="rotate(8,290,234)"/>
+
+  <!-- ── Green peas ── -->
+  <circle cx="175" cy="215" r="6" fill="#4CAF50"/>
+  <circle cx="175" cy="215" r="6" fill="none" stroke="#388E3C" stroke-width="1"/>
+  <ellipse cx="173" cy="213" rx="2.5" ry="2" fill="#81C784" opacity="0.6"/>
+
+  <circle cx="220" cy="208" r="6" fill="#43A047"/>
+  <circle cx="220" cy="208" r="6" fill="none" stroke="#2E7D32" stroke-width="1"/>
+  <ellipse cx="218" cy="206" rx="2.5" ry="2" fill="#81C784" opacity="0.6"/>
+
+  <circle cx="195" cy="222" r="5.5" fill="#4CAF50"/>
+  <circle cx="195" cy="222" r="5.5" fill="none" stroke="#388E3C" stroke-width="1"/>
+  <ellipse cx="193" cy="220" rx="2" ry="1.8" fill="#81C784" opacity="0.6"/>
+
+  <circle cx="245" cy="218" r="5" fill="#43A047"/>
+  <ellipse cx="243" cy="216" rx="2" ry="1.6" fill="#81C784" opacity="0.5"/>
+
+  <circle cx="155" cy="224" r="5" fill="#4CAF50"/>
+  <ellipse cx="153" cy="222" rx="2" ry="1.6" fill="#81C784" opacity="0.5"/>
+
+  <!-- ── Sesame seeds / seasoning specks ── -->
+  <ellipse cx="200" cy="196" rx="3"   ry="1.2" fill="#D4A040" transform="rotate(-20,200,196)"/>
+  <ellipse cx="215" cy="200" rx="2.5" ry="1"   fill="#C89030" transform="rotate(15,215,200)"/>
+  <ellipse cx="185" cy="201" rx="2.5" ry="1"   fill="#D4A040" transform="rotate(8,185,201)"/>
+  <ellipse cx="230" cy="206" rx="2.5" ry="1"   fill="#C89030" transform="rotate(-12,230,206)"/>
+  <ellipse cx="170" cy="207" rx="2.5" ry="1"   fill="#D4A040" transform="rotate(20,170,207)"/>
+
+  <!-- ── Plate rim highlights / shadows ── -->
+  <path d="M 44,245 A 156,27 0 0,1 356,245"
+        stroke="#FFFFFF" stroke-width="2.5" fill="none" opacity="0.55"/>
+  <path d="M 44,245 A 156,27 0 0,0 356,245"
+        stroke="#A09080" stroke-width="2" fill="none" opacity="0.4"/>
+
+</svg>

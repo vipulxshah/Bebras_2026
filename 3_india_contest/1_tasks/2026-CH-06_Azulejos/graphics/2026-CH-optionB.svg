@@ -7,7 +7,7 @@
    xml:space="preserve"
    style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
    id="svg1140"
-   sodipodi:docname="optionB.svg"
+   sodipodi:docname="2026-CH-optionB.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -31,7 +31,9 @@
         
         
         
-    </defs><sodipodi:namedview
+    
+            
+        </defs><sodipodi:namedview
    id="namedview1140"
    pagecolor="#ffffff"
    bordercolor="#000000"
@@ -41,20 +43,18 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:zoom="0.4368932"
-   inkscape:cx="334.17778"
-   inkscape:cy="8.0111112"
+   inkscape:cx="335.32223"
+   inkscape:cy="9.1555556"
    inkscape:window-width="2560"
    inkscape:window-height="1560"
    inkscape:window-x="-12"
    inkscape:window-y="-12"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg1140"
+   inkscape:current-layer="g294"
    showgrid="false" />
     <g
-   transform="translate(-2064.2237,-1948.6118)"
-   id="g295">
-            <g
-   id="g294">
+   id="g294"
+   transform="translate(-2064.2237,-1948.6118)">
                 <g
    transform="matrix(0.44368,0,0,0.44368,2173.72,1523.25)"
    id="g209">
@@ -548,7 +548,7 @@
                     </g>
                 </g>
                 <g
-   transform="matrix(0.44368,0,0,0.44368,1411.31,1765.4)"
+   transform="matrix(0.44368,0,0,0.44368,1168.6878,1769.9778)"
    id="g220">
                     <g
    transform="matrix(1.17645,0,0,1.18713,444.976,-297.749)"
@@ -716,7 +716,7 @@
                     </g>
                 </g>
                 <g
-   transform="matrix(0.44368,0,0,0.44368,1447.23,1522.32)"
+   transform="matrix(0.44368,0,0,0.44368,1692.1411,1524.6089)"
    id="g293">
                     <g
    transform="matrix(1.17645,0,0,1.17645,-181.78,256.525)"
@@ -1208,5 +1208,4 @@
                     </g>
                 </g>
             </g>
-        </g>
 </svg>

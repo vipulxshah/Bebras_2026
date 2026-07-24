@@ -1,0 +1,20 @@
+\documentclass[a4paper,11pt,twoside,open=any]{scrbook}
+
+% set a language name (german, french or italian)
+\usepackage[english]{babel}
+
+% load all packages, create commands, etc.
+\input{main/header.tex}
+
+% set the age categories (either true or false)
+\newboolean{age3to4}\setboolean{age3to4}{true}
+\newboolean{age5to6}\setboolean{age5to6}{true}
+\newboolean{age7to8}\setboolean{age7to8}{true}
+\newboolean{age9to10}\setboolean{age9to10}{true}
+\newboolean{age11to13}\setboolean{age11to13}{true}
+
+% set whether with or without solutions
+\newboolean{solutions}\setboolean{solutions}{true}
+
+% the document itself
+\input{main/main.tex}

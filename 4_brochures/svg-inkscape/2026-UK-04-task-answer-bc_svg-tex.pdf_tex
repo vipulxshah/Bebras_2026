@@ -1,0 +1,76 @@
+%% Creator: Inkscape 1.3 (0e150ed6c4, 2023-07-21), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '2026-UK-04-task-answer-bc_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1032bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.05377907)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{2026-UK-04-task-answer-bc_svg-tex.pdf}}%
+    \put(0.11973027,0.28938252){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{A}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2026-UK-04-task-answer-bc_svg-tex.pdf}}%
+    \put(0.24975614,0.01368048){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{B}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{2026-UK-04-task-answer-bc_svg-tex.pdf}}%
+    \put(0.49895309,0.13225607){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{E}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{2026-UK-04-task-answer-bc_svg-tex.pdf}}%
+    \put(0.73147528,0.47452211){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{H}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{2026-UK-04-task-answer-bc_svg-tex.pdf}}%
+    \put(0.49640941,0.47443194){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{D}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{2026-UK-04-task-answer-bc_svg-tex.pdf}}%
+    \put(0.39706355,0.2889254){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{C}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{2026-UK-04-task-answer-bc_svg-tex.pdf}}%
+    \put(0.61550396,0.59570498){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{F}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{2026-UK-04-task-answer-bc_svg-tex.pdf}}%
+    \put(0.61336491,0.28862889){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{G}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{2026-UK-04-task-answer-bc_svg-tex.pdf}}%
+    \put(0.89499233,0.28825098){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{I}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{2026-UK-04-task-answer-bc_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,178 @@
+%% Creator: Inkscape 1.3 (0e150ed6c4, 2023-07-21), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '2026-AT-02-coins_4_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1176.1304576bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.39634965)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.01574741,0.33483348){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.01574741,0.28093069){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.01574741,0.2270279){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.01574741,0.17312509){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.01574741,0.11922231){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.01574741,0.06531952){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.05129207,0.28095152){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.05129207,0.33484963){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.05129207,0.11925719){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.05129207,0.1731553){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.05129207,0.06535908){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.05129207,0.22705341){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.18400555,0.33483348){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.18400555,0.28093069){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.18400555,0.2270279){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.18400555,0.17312509){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.18400555,0.11922231){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.18400555,0.06531952){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.21955022,0.28095152){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.26774108,0.28095111){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.21955022,0.11925719){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.21955022,0.1731553){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.21955022,0.06535908){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.21955022,0.22705341){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.35226369,0.33483348){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.35226369,0.28093069){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.35226369,0.2270279){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.35226369,0.17312509){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.35226369,0.11922231){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.35226369,0.06531952){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.3877688,0.33487325){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.43599921,0.28095111){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.38780835,0.11925719){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.38780835,0.1731553){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=35]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.38780835,0.06535908){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=36]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.38780835,0.22705341){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=37]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.52052183,0.33483348){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=38]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.52052183,0.28093069){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=39]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.52052183,0.2270279){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=40]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.52052183,0.17312509){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=41]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.52052183,0.11922231){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=42]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.52052183,0.06531952){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=43]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.55602694,0.33487325){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=44]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.5560779,0.28097702){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=45]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.5560665,0.11925719){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=46]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.5560665,0.1731553){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=47]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.5560665,0.06535908){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=48]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.5560665,0.22705341){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=49]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.85703812,0.33483446){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=50]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.85703812,0.28093168){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=51]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.85703812,0.22702889){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=52]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.85703812,0.17312608){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=53]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.85703812,0.1192233){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=54]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.85703812,0.06532051){\color[rgb]{0.63529412,0.63529412,0.63529412}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=55]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.89254323,0.33487424){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=56]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.89259418,0.28097801){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=57]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.89258278,0.11925818){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=58]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.89258278,0.17315629){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=59]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.89258278,0.06536007){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=60]{2026-AT-02-coins_4_svg-tex.pdf}}%
+    \put(0.94077365,0.17315711){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\lineheight{0.85000002}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=61]{2026-AT-02-coins_4_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,119 @@
+---
+id: 2026-IR-05
+name: The Carpet Weaver's Mistake
+title: The Carpet Weaver's Mistake
+ages:
+  6-8: --
+  8-10: hard
+  10-12: medium
+  12-14: easy
+  14-16: --
+  16-19: --
+answer_type: multiple choice
+categories:
+  - algorithms and programming
+contributors:
+  - Javad Maarefvand, javadmaaref80@gmail.com, Iran (author)
+  - Hamed Mohebbi, hmdmohebbi@gmail.com, Iran (contributor, graphics)
+  - Eslam Wageed, eslamwageed@gmail.com, Egypt (graphics)
+support_files:
+  - graphics/*.svg by Hamed Mohebbi 
+  - graphics/*.svg by Eslam Wageed
+
+equivalent_tasks: --
+settings:
+  default_image_scale: 1
+---
+[flower]:graphics/2026-IR-05_flower.svg
+[leaf]:graphics/2026-IR-05_leaf.svg
+[grid]:graphics/2026-IR-05_grid.svg
+[explain]:graphics/2026-IR-05_answer.svg
+
+## Body
+
+ಅಲಿ ಪರ್ಷಿಯನ್ ಹಾಸಿಗೆಗಳ ವಿನ್ಯಾಸ ಕಲಿಯುತ್ತಿದ್ದಾನೆ. ಅವನ ಗುರುವಾದ ಮಾಸ್ಟರ್ ವೀವರ್ ಅವನಿಗೆ ಎರಡು ಬಗೆಯ ಗಂಟುಗಳನ್ನು ಕಲಿಸಿದರು: "ಹೂವಿನ ಗಂಟುಗಳು"![flower] ಮತ್ತು "ಎಲೆ ಗಂಟುಗಳು" ![leaf]. ಅಲಿ ತನ್ನ ಗುರುರನ್ನು ಮೆಚ್ಚಿಸಲು 5 × 5 ಗಾತ್ರದ ಒಂದು ಸಣ್ಣ ಹಾಸಿಗೆಯನ್ನು ತಯಾರಿಸಿದನು.
+
+ಸುಂದರವಾದ ಹಾಸಿಗೆಯನ್ನು ಪಡೆಯಲು, ಮಾಸ್ಟರ್ ವೀವರ್ ಎರಡು ಕಟ್ಟುನಿಟ್ಟಿನ ನಿಯಮಗಳನ್ನು ನೀಡಿದರು:
+
+- ಎಲೆ ನಿಯಮ: ಪ್ರತಿಯೊಂದು ಸಾಲಿನಲ್ಲಿ ಎಲೆ ಗಂಟುಗಳ ಸಂಖ್ಯೆ ಸಮವಾಗಿರಬೇಕು, ಅಂದರೆ 0, 2, ಅಥವಾ 4.
+- ಹೂವಿನ ನಿಯಮ: ಪ್ರತಿಯೊಂದು ಅಂಕಣ‌ನಲ್ಲಿ ಹೂವಿನ ಗಂಟುಗಳ ಸಂಖ್ಯೆ ಬೆಸವಾಗಿರಬೇಕು, ಅಂದರೆ 1, 3, ಅಥವಾ 5.
+
+ಅಲಿ ತನ್ನ ಸಣ್ಣ ಹಾಸಿಗೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದಾನೆ. ಆದರೆ ಅವನು ತಪ್ಪಾಗಿ ನಿಖರವಾಗಿ ಒಂದು ಕಣದಲ್ಲಿ ತಪ್ಪು ಗಂಟನ್ನು ಬಳಸಿದ್ದಾನೆ.
+
+![grid]
+
+
+## Question/Challenge - for the brochures
+
+ಅಲಿ ಯಾವ ಕಣದಲ್ಲಿ ತಪ್ಪು ಗಂಟನ್ನು ಬಳಸಿದ್ದಾನೆ?
+
+## Question/Challenge - for the online challenge
+
+ಅಲಿ ಯಾವ ಕಣದಲ್ಲಿ ತಪ್ಪು ಗಂಟನ್ನು ಬಳಸಿದ್ದಾನೆ?
+
+## Interactivity instruction - for the online challenge
+
+--
+
+## Answer Options/Interactivity Description
+
+A) ಸಾಲು 2, ಅಂಕಣ C
+B) ಸಾಲು 3, ಅಂಕಣ B
+C) ಸಾಲು 3, ಅಂಕಣ C
+D) ಸಾಲು 4, ಅಂಕಣ B
+
+## Answer Explanation
+
+The correct answer is B) Row 3, Column B.
+
+Step 1: Check the Rows
+
+According to the first rule, every row must contain an even number of Leaf knots. Therefore, each row should have 0, 2, or 4 Leaf knots. We check all rows to make sure that this condition is satisfied.
+
+- Row 1: 2 Leaves (Even) — OK
+- Row 2: 2 Leaves (Even) — OK
+- Row 3: 3 Leaves (Odd) — ERROR!
+- Row 4: 2 Leaves (Even) — OK
+- Row 5: 2 Leaves (Even) — OK
+
+=> Conclusion: The mistake is somewhere in Row 3.
+
+Step 2: Check the Columns
+
+According to the second rule, every column must contain an odd number of Flower knots. Therefore, each column should have 1, 3, or 5 Flower knots. We check all columns to make sure that this condition is satisfied.
+- Col A: 3 Flowers (Odd) — OK
+- Col B: 2 Flower (Even) — ERROR!
+- Col C: 3 Flowers (Odd) — OK
+- Col D: 3 Flowers (Odd) — OK
+- Col E: 3 Flowers (Odd) — OK
+
+=> Conclusion: The mistake is somewhere in Column B.
+
+Step 3: Locate the error
+
+By combining these conclusions, the only cell that breaks both the first rule and the second rule is Row 3, Column B. If you swap that Leaf for a Flower, both rules will be satisfied.
+
+![explain]
+
+
+## This is Informatics
+
+This task illustrates the concept of Error Detection using parity.
+
+In computing, data is sent as a sequences of 1s and 0s. Sometimes, a bit gets flipped by accident (a "1" becomes a "0" or the other way round). To catch these mistakes, computers add a parity bit — an extra bit that makes the total number of 1s either always even or always odd. If one bit is flipped, this even-or-odd pattern is broken, so the computer can detect that an error has occurred.
+
+With such one-dimensional parity, the computer can detect an error, but it cannot identify exactly where the error is.  By applying the same idea to both rows and columns, using a Two-Dimensional Parity Check, which is what is used in the task, makes it possible to identify the position of the flipped bit (if one bit has been flipped by error), making it possible to correct the error. In this task, an even parity is applied to rows and an odd parity is applied to columns. That is not required and the same parity could have been chosen for both rows and columns.
+
+## This is Computational Thinking
+
+Solving this task requires decomposition: checking each row and each column independently rather than inspecting every knot individually. Evaluation and Logical reasoning confirms the answer: fixing one knot at the intersection simultaneously resolves both the row and column violation, which students must verify.
+
+## Informatics Keywords and Websites
+
+
+## Computational Thinking Keywords and Websites
+
+
+## Wording and Phrases
+
+## Comments

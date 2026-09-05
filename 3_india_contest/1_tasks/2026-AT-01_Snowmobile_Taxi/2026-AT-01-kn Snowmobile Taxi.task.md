@@ -1,0 +1,115 @@
+---
+id: 2026-AT-01
+name: Snowmobile Taxi
+title: Snowmobile Taxi
+ages:
+  6-8: --
+  8-10: --
+  10-12: hard
+  12-14: medium
+  14-16: easy
+  16-19: --
+answer_type: multiple choice
+categories:
+  - data structures and representations
+contributors:
+  - Liam Baumann, liam.baumann@ocg.at, Austria (author, graphics)
+  - Heidi Kaarto, heidi.kaarto@utu.fi, Finland (contributor)
+
+support_files:
+  - graphics/*.svg by Liam Baumann
+equivalent_tasks: --
+settings:
+  default_image_scale: 0.80
+---
+[map]:graphics/bus-map.svg
+[ansA]:graphics/snowmobile-map-A.svg "ansA (150px)"
+[ansB]:graphics/snowmobile-map-B.svg "ansB (150px)"
+[ansC]:graphics/snowmobile-map-C.svg "ansC (150px)"
+[ansD]:graphics//snowmobile-map-D-correct.svg "ansD (150px)"
+[ansE]:graphics/snowmobile-map-E.svg "ansE (150px)"
+
+[solution]:graphics/bus-map-solution.svg "solution (200px)"
+
+## Body
+
+ಗೋವಾದಲ್ಲಿ ಪ್ರವಾಸಿ ಋತು ಆರಂಭವಾಗಿದ್ದು, ಪ್ರಮುಖ ಸ್ಥಳಗಳನ್ನು ಸಂಪರ್ಕಿಸುವ ಐದು ಬಸ್ ನಿಲ್ದಾಣಗಳಿದ್ದು, ಪ್ರತಿಯೊಂದನ್ನೂ ಒಂದು ಅಕ್ಷರದಿಂದ ಗುರುತಿಸಲಾಗಿದೆ. ಕೆಳಗಿನ ನಕ್ಷೆಯಲ್ಲಿ ಈ ಬಸ್ ನಿಲ್ದಾಣಗಳನ್ನು ಪರಸ್ಪರ (ಎರಡೂ ದಿಕ್ಕುಗಳಲ್ಲಿ – ಹೋಗಿ ಬರುವ) ನೇರವಾಗಿ ಸಂಪರ್ಕಿಸುವ ಬಸ್ ಮಾರ್ಗಗಳನ್ನು ತೋರಿಸಲಾಗಿದೆ.
+
+![map]
+
+ರಮೇಶ್ ಅವರ ಟ್ಯಾಕ್ಸಿ ಸೇವೆಯು ಬಸ್ಸುಗಳು ಸಂಚರಿಸದಿರುವ ಬಸ್ ನಿಲ್ದಾಣಗಳ ನಡುವೆಯಷ್ಟೇ ಸಂಚರಿಸುತ್ತದೆ.
+
+ಗೋವಾಕ್ಕೆ ಭೇಟಿ ನೀಡುವ ಪ್ರವಾಸಿಗರಿಗೆ ಸುಲಭವಾಗಿ ಮಾರ್ಗದರ್ಶನ ನೀಡಲು, ಅವರು ತಮ್ಮ ಟ್ಯಾಕ್ಸಿ ಸೇವೆಯ ಮಾರ್ಗಗಳನ್ನು ತೋರಿಸುವ ಒಂದು ನಕ್ಷೆಯನ್ನು ರಚಿಸಲು ನಿರ್ಧರಿಸಿದರು.
+## Question/Challenge - for the brochures
+
+ರಮೇಶ್ ಅವರ ಟ್ಯಾಕ್ಸಿ ಮಾರ್ಗಗಳನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುವ ನಕ್ಷೆ ಯಾವುದು?
+
+## Question/Challenge - for the online challenge
+
+ರಮೇಶ್ ಅವರ ಟ್ಯಾಕ್ಸಿ ಮಾರ್ಗಗಳನ್ನು ಸರಿಯಾಗಿ ತೋರಿಸುವ ನಕ್ಷೆ ಯಾವುದು?
+
+## Interactivity instruction - for the online challenge
+
+
+## Answer Options/Interactivity Description
+
+A. ![ansA] B. ![ansB]   C. ![ansC]
+
+D. ![ansD] E. ![ansE]
+
+
+## Answer Explanation
+
+The correct answer is (D).
+
+One approach to solve this would be by drawing lines for all missing direct connections between the stops on the bus map. To do this, pick one of the stops, then go through all other stops and see if there is a line; wherever there is no line, draw one. For example, let’s pick stop B: there is a line going to A and D, but there are no lines going to C and E, so we draw those. Below is the resulting map.
+
+![solution]
+
+We can also check that we aren’t missing any lines by counting: There are 5 stops, so each stop needs to be connected to 4 other stops. For example, stop A has 3 gray lines and 1 red line, so 4 lines in total.
+
+Once we have drawn all missing connections, the red lines (and the bus stops) correspond to Borges’s taxi map, which is the option D.
+
+## This is Informatics
+
+The map of bus stops in this task is called a graph in informatics.
+
+Graphs are a powerful tool for representing networks (like our map, or computer networks), relationships (like friendships on social media), or links between websites. In informatics, analysing what is not connected can be just as important as analysing what is.
+Graphs consist of:
+- Nodes: The individual items or locations (in our case, the bus stops).
+- Edges: The lines connecting the items (in our case, the bus routes).
+This is where complement graphs come in. A complement graph takes the exact same nodes as the original graph but flips the connections:
+- It only draws edges where the original graph did not have them.
+
+Borges's map is a complement graph to the regular bus map!
+
+Interestingly, some problems that are challenging to solve on the original graph can become easier when approached using its complement. Some algorithms may run more efficiently on the complement graph.
+
+In parallel computing, tasks often have dependencies that prevent them from running simultaneously. These dependencies can be modelled as a graph:
+  - Each node represents a task.
+  - An edge between two nodes indicates that the tasks cannot run at the same time (because one depends on the other).
+
+The complement graph, in this case, shows which tasks can run simultaneously, that is, tasks that are not connected by a dependency. By identifying these independent sets of tasks, the computer can execute them in parallel, ultimately speeding up computations.
+
+## This is Computational Thinking
+To solve this puzzle, three computational thinking skills are important:
+
+Abstraction: You have to look past the story, the buses, tourists, and taxis. This involves leaving out unnecessary details and only focusing on the core idea: identifying a set of stops (nodes) and the routes (edges) and their relationships.
+
+Algorithmic Thinking: You have to follow a logical rule to systematically check each pair of bus stops and connections, while not losing track. While there are different ways this can be done, you have probably used a simple if/then condition. For example: If there is a direct bus route (connection), then Borges doesn’t drive there.
+
+Applying rules step-by-step to process data (in this case, the maps / graphs) is the foundation of writing algorithms.
+
+Decomposition: In order to find the solution, you have to break the large, complex problem of constructing the entire complement graph into smaller problems, like looking at just a pair of nodes at a time and comparing their connections on both maps.
+
+## Informatics Keywords and Websites
+--
+
+## Computational Thinking Keywords and Websites
+--
+
+## Wording and Phrases
+--
+
+## Comments
+--

@@ -6,3 +6,4 @@ derived/
 *.fls
 *.html
 *.fdb_latexmk
+4_brochures/*.pdf

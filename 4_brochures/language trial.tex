@@ -2,7 +2,8 @@
 
 \usepackage{fontspec}
 \usepackage{babel} 
-\babelprovide[main, import]{odia} 
+%\babelprovide[main, import]{odia} 
+\babelprovide[main, import]{kannada} 
 \babelprovide[import]{english}
 
 \setmainfont{Nirmala UI}
@@ -10,17 +11,27 @@
 % Set the main font to support Odia glyphs
 \babelfont{rm}[Renderer=HarfBuzz]{Nirmala UI} % Or use NotoSansOriya if preferred
 
+
 \begin{document}
 
-ଓଡ଼ିଆ କବିତା ବା ପ୍ରବନ୍ଧେଇଠାରେ ଲେଖନ୍ତୁ।
+ಕನ್ನಡ ಲಿಪಿಯಲ್ಲಿ ಲೇಟೆಕ್ಸ್ ಉದಾಹರಣೆ. 
 
-Local name $=$ ଓଡ଼ିଆ
+\begin{itemize}
+    \item \textbf{ದಿನಾಂಕ:} \today
+    \item \textbf{ಸಂಖ್ಯೆಗಳು:} \localenumeral{digits}{0123456789}
+\end{itemize}
 
-Chapter $=$ \chaptername
+%
+%ଓଡ଼ିଆ କବିତା ବା ପ୍ରବନ୍ଧେଇଠାରେ ଲେଖନ୍ତୁ।
+%
+%Local name $=$ ଓଡ଼ିଆ
+%
+%Chapter $=$ \chaptername
 
-Today $=$ \today
 
-Digits $=$ \localenumeral{digits}{0123456789}
+%Today $=$ \today
+
+%Digits $=$ \localenumeral{digits}{0123456789}
 
 
 \end{document}

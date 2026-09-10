@@ -1,7 +1,0 @@
-{
-    copyrightString: "International Contest on Computer Science and Computational Thinking",
-    brochure: {
-        includeThisIsComputationalThinking: false,
-        skipKeywordHeading: true,
-    },
-}

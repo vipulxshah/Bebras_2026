@@ -11,6 +11,8 @@
             "shared/style/style_common_stripped.css",
             "shared/style/style_117.css",
         ],
+        defaultGraderId: 48,
+        defaultFolderId: 18,
     }, 
     vscode: {
         autoExport: ["question", "answer", "itsinformatics"],

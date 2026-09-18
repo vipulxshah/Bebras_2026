@@ -75,7 +75,23 @@
       \input{tasks/ssi_tasks.tex}
   }
   {
-    \input{tasks/tasks.tex}
+    \IfLanguageName{english}{\input{tasks/tasks.tex}}{}
+    \IfLanguageName{gujarati}{\input{tasks/tasks.tex}}{}
+    \IfLanguageName{marathi}{\input{tasks/tasks.tex}}{}
+    \IfLanguageName{hindi}{\input{tasks/tasks.tex}}{}
+    \IfLanguageName{telugu}{\input{tasks/tasks.tex}}{}
+
+    \IfLanguageName{tamil}{\input{tasks/3groups_tasks.tex}}{}
+
+    \IfLanguageName{odia}{\input{tasks/other_reg_tasks.tex}}{} 
+
+    \IfLanguageName{kannada}{\input{tasks/other_reg_tasks.tex}}{}
+    \IfLanguageName{bengali}{\input{tasks/other_reg_tasks.tex}}{}
+    \IfLanguageName{punjabi}{\input{tasks/other_reg_tasks.tex}}{}
+    \IfLanguageName{assamese}{\input{tasks/other_reg_tasks.tex}}{}
+  
+
+    \IfLanguageName{bodo}{\input{tasks/other_reg_tasks.tex}}{}
   }
 
   \BrochureSetHeadersForNonTasks{}

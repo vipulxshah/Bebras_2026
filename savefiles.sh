@@ -1,3 +1,1 @@
-Get-ChildItem -Recurse -Filter *te.md| ForEach-Object {
-    code -r $_.FullName                                
-}
+npx bebras c -f -r tex .\3_india_contest\1_tasks                           

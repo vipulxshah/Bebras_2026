@@ -4,7 +4,7 @@
   \thispagestyle{empty}
  % \ThisCenterWallPaper{1.0}{graphics/title-background.pdf}
   %\input{main/titlepage\BrochureLanguagePostfix.tex}
-  
+  \input{main/titlepage-eng.tex}
   % front matter
   \frontmatter
 
@@ -16,7 +16,7 @@
   \pagestyle{scrheadings}
   
   \rohead[{\includegraphicsnosvg[height=9mm]{graphics/Bebras India Logo_male.pdf}}]{\includegraphicsnosvg[height=9mm]{graphics/Bebras India Logo_male.pdf}}
-  \lehead[{\includegraphicsnosvg[height=9mm]{graphics/Bebras India Logo_female.pdf}}]{\includegraphicsnosvg[height=9mm]{graphics/Bebras India Logo_female.pdf}}
+  \lehead[{\includegraphicsnosvg[height=9mm]{graphics/BebrasIndiaLogo_female.pdf}}]{\includegraphicsnosvg[height=9mm]{graphics/BebrasIndiaLogo_female.pdf}}
   \lohead[\Brochurelohead]{\Brochurelohead}
   \rehead[\Brochurerehead]{\Brochurerehead}
   \ifoot[\BrochureCopyright]{\BrochureCopyright}
@@ -39,8 +39,8 @@
   \begingroup
     \let\cleardoublepage\clearpage
 
-   %\input{main/credits\BrochureLanguagePostfix.tex}
-   %\input{main/preface\BrochureLanguagePostfix.tex}
+   \input{main/credits\BrochureLanguagePostfix.tex}
+   \input{main/preface\BrochureLanguagePostfix.tex}
 
    % protrusion should be disabled for toc
     \microtypesetup{protrusion=false}
@@ -83,7 +83,7 @@
 
     \IfLanguageName{tamil}{\input{tasks/3groups_tasks.tex}}{}
 
-    \IfLanguageName{odia}{\input{tasks/other_reg_tasks.tex}}{} 
+    \IfLanguageName{odia}{\input{tasks/3groups_tasks.tex}}{} 
 
     \IfLanguageName{kannada}{\input{tasks/other_reg_tasks.tex}}{}
     \IfLanguageName{bengali}{\input{tasks/other_reg_tasks.tex}}{}
@@ -101,10 +101,10 @@
   \begingroup
     \let\cleardoublepage\clearpage
   
-    %\input{main/authors}
+    \input{main/authors}
   
     % back matter
-    %\input{main/partners\BrochureLanguagePostfix.tex}
+    \input{main/partners\BrochureLanguagePostfix.tex}
     %\input{main/sponsors\BrochureLanguagePostfix.tex}
   \endgroup
 \end{document}

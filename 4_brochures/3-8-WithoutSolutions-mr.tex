@@ -6,17 +6,20 @@
 
 \usepackage{fontspec}
 
+%\usepackage[bidi=basic]{babel} % Use basic bidi layout engine if mixing scripts
+
 \usepackage{babel} 
 \babelprovide[main, import]{marathi} 
 \babelprovide[import]{english}
 
 %\babelprovide[mapdigits]{marathi}
 
+%\defaultfontfeatures{Renderer=HarfBuzz, Ligatures=ResetAll}
 \setmainfont{Nirmala UI}
 
-\babelfont{rm}[Renderer=HarfBuzz]{Nirmala UI}
-\babelfont{sf}[Renderer=HarfBuzz]{Nirmala UI}
-\babelfont{tt}[Renderer=HarfBuzz]{Nirmala UI}
+\babelfont{rm}[Renderer=HarfBuzz, Ligatures=ResetAll]{Nirmala UI}
+\babelfont{sf}[Renderer=HarfBuzz, Ligatures=ResetAll]{Nirmala UI}
+\babelfont{tt}[Renderer=HarfBuzz, Ligatures=ResetAll]{Nirmala UI}
 
 \input{main/header.tex}
 

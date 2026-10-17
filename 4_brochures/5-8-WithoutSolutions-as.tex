@@ -7,7 +7,7 @@
 \usepackage{fontspec}
 
 \usepackage{babel} 
-\babelprovide[main, import]{bengali} 
+\babelprovide[main, import]{assamese} 
 \babelprovide[import]{english}
 
 %\babelprovide[mapdigits]{assamese}
@@ -15,9 +15,10 @@
 % Set the main language to Odia
 \setmainfont{Nirmala UI}
 
-\babelfont{rm}[Renderer=HarfBuzz]{Nirmala UI}
-\babelfont{sf}[Renderer=HarfBuzz]{Nirmala UI}
-\babelfont{tt}[Renderer=HarfBuzz]{Nirmala UI}
+
+\babelfont{rm}[Renderer=HarfBuzz, Script=Bengali]{Nirmala UI}
+\babelfont{sf}[Renderer=HarfBuzz, Script=Bengali]{Nirmala UI}
+\babelfont{tt}[Renderer=HarfBuzz, Script=Bengali]{Nirmala UI}
 
 \input{main/header.tex}
 
@@ -33,7 +34,7 @@
 
 \newboolean{ssi}\setboolean{ssi}{false}
 
-\newcommand{\BrochureLanguagePostfix}{-as}
+%\newcommand{\BrochureLanguagePostfix}{-as}
 
 % the document itself
 \input{main/main.tex}

@@ -15,7 +15,7 @@
         defaultFolderId: 18,
     }, 
     vscode: {
-        autoExport: ["question", "answer", "itsinformatics"],
-        autoUpload: ["question", "answer", "itsinformatics"],
+        autoExport: ["question", "title", "answer", "itsinformatics"],
+        autoUpload: ["question", "title", "answer", "itsinformatics"],
     },   
 }

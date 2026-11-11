@@ -1,0 +1,65 @@
+%% Creator: Inkscape 1.2.1 (9c6d41e410, 2022-07-14), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '2026-ME-01a-body2-or_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1831.74957275bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.42246937)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{2026-ME-01a-body2-or_svg-tex.pdf}}%
+    \put(0.02444543,0.264985){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ପାଞ୍ଚଟି ବଲ୍ ଗଡ଼ିବା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ\end{tabular}}}}%
+    \put(0.27832997,0.26469062){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ବଲ୍‌ଗୁଡ଼ିକ ଗଡ଼ିବା ବନ୍ଦ ହେବା ପରେ\end{tabular}}}}%
+    \put(0.50921376,0.26586638){\color[rgb]{0,0,0}\rotatebox{-0.00000303}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ପିନ୍ ଟାଣିବା ପରେ ଚୂଡ଼ାନ୍ତ ଫଳାଫଳ\end{tabular}}}}}%
+    \put(0.07379244,0.00246094){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ପାଞ୍ଚଟି ବଲ୍ ଗଡ଼ିବା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ\end{tabular}}}}%
+    \put(0.38596624,0.00337443){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ବଲ୍‌ଗୁଡ଼ିକ ଗଡ଼ିବା ବନ୍ଦ ହେବା ପରେ\end{tabular}}}}%
+    \put(0.74173462,0.00489327){\color[rgb]{0,0,0}\rotatebox{-0.00000303}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ପ୍ଲଗ୍ ବାହାର କରିବା ପରେ ଚୂଡ଼ାନ୍ତ ଫଳାଫଳ\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{2026-ME-01a-body2-or_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

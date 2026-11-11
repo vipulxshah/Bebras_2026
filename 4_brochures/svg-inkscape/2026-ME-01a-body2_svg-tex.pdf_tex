@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{1897.90447998bp}%
+    \setlength{\unitlength}{1824.55883789bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,16 +50,16 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.41564289)%
+  \begin{picture}(1,0.43260762)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{2026-ME-01a-body2_svg-tex.pdf}}%
-    \put(0.02662436,0.26387605){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}before five balls \\start rolling\end{tabular}}}}%
-    \put(0.2716593,0.26359193){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}after balls have \\stopped rolling\end{tabular}}}}%
-    \put(0.49449521,0.26449858){\color[rgb]{0,0,0}\rotatebox{-0.00000303}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}final result after \\pulling the pin\end{tabular}}}}}%
-    \put(0.07425128,0.00216744){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}before five balls start rolling\end{tabular}}}}%
-    \put(0.38160575,0.00380683){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}after balls have stopped rolling\end{tabular}}}}%
-    \put(0.71663787,0.00580235){\color[rgb]{0,0,0}\rotatebox{-0.00000303}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}final result after removing the cork\end{tabular}}}}}%
+    \put(0.02769464,0.27450259){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}before five balls \\start rolling\end{tabular}}}}%
+    \put(0.28257976,0.27420704){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}after balls have \\stopped rolling\end{tabular}}}}%
+    \put(0.51437348,0.27538744){\color[rgb]{0,0,0}\rotatebox{-0.00000303}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}final result after \\pulling the pin\end{tabular}}}}}%
+    \put(0.07723611,0.00227352){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}before five balls start rolling\end{tabular}}}}%
+    \put(0.39694596,0.00397881){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}after balls have stopped rolling\end{tabular}}}}%
+    \put(0.74544608,0.00629186){\color[rgb]{0,0,0}\rotatebox{-0.00000303}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}final result after removing the cork\end{tabular}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{2026-ME-01a-body2_svg-tex.pdf}}%
   \end{picture}%
 \endgroup%

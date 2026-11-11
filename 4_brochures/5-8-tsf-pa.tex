@@ -1,0 +1,40 @@
+\documentclass[a4paper,11pt,twoside,open=any]{scrbook}
+% Place \setuptoc in the preamble before the document begins
+\setuptoc{toc}{totoc}
+
+% set a language name (german, french or italian)
+
+\usepackage{fontspec}
+
+\usepackage{babel} 
+\babelprovide[main, import]{punjabi} 
+\babelprovide[import]{english}
+
+%\babelprovide[mapdigits]{punjabi}
+
+% Set the main language to Odia
+\setmainfont{Nirmala UI}
+
+\babelfont{rm}[Renderer=HarfBuzz]{Nirmala UI}
+\babelfont{sf}[Renderer=HarfBuzz]{Nirmala UI}
+\babelfont{tt}[Renderer=HarfBuzz]{Nirmala UI}
+
+% load all packages, create commands, etc.
+\input{main/header.tex}
+
+% set the age categories (either true or false)
+\newboolean{age3to4}\setboolean{age3to4}{false}
+\newboolean{age5to6}\setboolean{age5to6}{true}
+\newboolean{age7to8}\setboolean{age7to8}{false}
+\newboolean{age9to10}\setboolean{age9to10}{false}
+\newboolean{age11to13}\setboolean{age11to13}{false}
+
+% set whether with or without solutions
+\newboolean{solutions}\setboolean{solutions}{false}
+
+\newboolean{ssi} \setboolean{ssi}{false}
+
+\newboolean{tsf} \setboolean{tsf}{true}
+
+% the document itself
+\input{main/main.tex}

@@ -1,6 +1,7 @@
   \ifthenelse{\boolean{tsf}}{%
   \ifthenelse{\boolean{age5to6}}{\newcommand{\BrochureAgegroup}{Grades 5-8}}{
-  \ifthenelse{\boolean{age7to8}}{\newcommand{\BrochureAgegroup}{Grades 9-10}}{}}
+  \ifthenelse{\boolean{age7to8}}{\newcommand{\BrochureAgegroup}{Grades 9-10}}{
+  \ifthenelse{\boolean{age9to10}}{\newcommand{\BrochureAgegroup}{Grades 11-12}}}{}}
   }
   {
 \ifthenelse{\boolean{age3to4} \and \boolean{age5to6} \and \boolean{age7to8} \and \boolean{age9to10} \and \boolean{age11to13}}{\newcommand{\BrochureAgegroup}{All Tasks}}{
